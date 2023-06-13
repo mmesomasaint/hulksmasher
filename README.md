@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Hulksmasher: A Custom-made Shoes Site
 
-## Getting Started
+This is a custom-made footwear online contraction site. Bootstrapped with NEXT.js and it's contents are maintained by Strapi online CMS.
 
-First, run the development server:
+## Tech Stack Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+First, this app was bootstrapped with  and  along with some other tools:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* [Next.js](https://nextjs.org/docs)
+* [Strapi](https://strapi.io/docs)
+* [Tailwindcss]()
+* [Reacticons]()
+
+## Clone Locally
+
+Only the codes from this app can be used locally. The `Strapi app` wasn't made public. So you'd have to build and design yours from scratch.
+
+Or click [this link](/build_strapi_template) to use this template. 
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributions
 
-## Learn More
+To Contribute to this codebase, please follow the outlined rules [here](/contribution_guidlines) - your feedback and contributions are welcome!
 
-To learn more about Next.js, take a look at the following resources:
+## Shout out to Producer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This app was created by [Mmesoma Saint](https://github.com/mmesomasaint). A fullstack prodigy, proficient in various tech stacks. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can contact Saint on [Twitter](https://twitter.com/saint_somso).
