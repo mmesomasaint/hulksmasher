@@ -1,6 +1,8 @@
 import { useState, useCallback } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import {GiHamburgerMenu} from 'react-icons/gi'
+import {BsFillBagFill, BsFillPersonFill} from 'react-icons/bs'
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
