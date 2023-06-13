@@ -56,7 +56,7 @@ export default function Home() {
                   />
                 </div>
                 <button className='text-white text-base md:text-lg py-2 md:py-3 px-4 md:px-6 font-medium leading-none bg-transparent border-2 border-primary rounded-full'>
-                  Connect Wallet
+                  Contact Us
                 </button>
                 <div className='hidden xs:flex justify-center items-center gap-5'>
                   <BsFillBagFill className='text-white text-lg md:text-xl' />
