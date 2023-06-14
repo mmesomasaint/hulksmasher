@@ -1,12 +1,13 @@
 import Header from './components/header'
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
+import Image from 'next/image'
 
 export default function Home() {
   return (
     <main className=''>
       <Header />
       <section className='max-w-[90rem] mx-auto'>
-        <div className='h-fit md:h-[40rem] w-full bg-zinc-900'>
+        <div className='relative overflow-hidden h-fit md:h-[40rem] w-full bg-zinc-900'>
           <div className='flex justify-center items-center h-full'>
             <div className='w-full h-fit pt-32 text-center'>
               <h1 className='block w-[90%] sm:w-[70%] lg:w-[60%] xl:w-[50%] mx-auto text-4xl md:text-6xl font-bold leading-loose text-white mb-4'>
@@ -34,6 +35,11 @@ export default function Home() {
                   Request Service
                 </button>
               </div>
+            </div>
+          </div>
+          <div className='absolute origin-top-left rotate-45 top-0 z-30 w-full h-full border border-red-500'>
+            <div className='relative w-[50%] h-full'>
+            <Image src='/shirts-display.png' fill sizes='55vw' alt='shirts row' />
             </div>
           </div>
         </div>
