@@ -9,8 +9,8 @@ export default function Home() {
         <div className='h-fit md:h-[40rem] w-full bg-zinc-900'>
           <div className='flex justify-center items-center h-full'>
             <div className='w-full h-fit pt-32 text-center'>
-              <h1 className='block w-[90%] sm:w-[70%] lg:w-[60%] xl:w-[45%] mx-auto text-4xl md:text-5xl font-bold leading-normal text-white mb-4'>
-                Your One-Stop For&nbsp;
+              <h1 className='block w-[90%] sm:w-[70%] lg:w-[60%] xl:w-[50%] mx-auto text-4xl md:text-6xl font-bold leading-loose text-white mb-4'>
+                Your Stop For&nbsp;
                 <span className='text-primary'>Custom-Made</span>&nbsp;Senators
                 and Footwears
               </h1>
