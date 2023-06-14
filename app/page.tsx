@@ -39,7 +39,12 @@ export default function Home() {
           </div>
           <div className='absolute origin-top-left rotate-45 top-0 z-30 w-full h-full border border-red-500'>
             <div className='relative w-[50%] h-full'>
-            <Image src='/shirts-display.png' fill sizes='55vw' alt='shirts row' />
+              <Image
+                src='/shirts-display.png'
+                fill
+                sizes='55vw'
+                alt='shirts row'
+              />
             </div>
           </div>
         </div>
