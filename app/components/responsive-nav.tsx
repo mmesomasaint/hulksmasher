@@ -37,35 +37,35 @@ function ResponsiveNav() {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black hover:text-gray-600'>
+                <span className='font-normal text-lg leading-none text-black'>
                   <Link href='/discover'>Discover</Link>
                 </span>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black hover:text-gray-600'>
+                <span className='font-normal text-lg leading-none text-black'>
                   <Link href='/patners'>Patners</Link>
                 </span>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black hover:text-gray-600'>
+                <span className='font-normal text-lg leading-none text-black'>
                   <Link href='/about'>About</Link>
                 </span>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black hover:text-gray-600'>
+                <span className='font-normal text-lg leading-none text-black'>
                   <Link href='/feedback'>Feedbacks</Link>
                 </span>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black hover:text-gray-600'>
+                <span className='font-normal text-lg leading-none text-black'>
                   <Link href='/contact'>Contact</Link>
                 </span>
               )}
