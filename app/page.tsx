@@ -1,4 +1,3 @@
-import Header from './components/header'
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 import Image from 'next/image'
 import Link from 'next/link'
