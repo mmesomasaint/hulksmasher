@@ -47,6 +47,16 @@ export default function Home() {
               />
             </div>
           </div>
+          <div className='absolute origin-top-right -rotate-45 top-0 z-30 w-full h-full border border-red-500'>
+            <div className='relative w-[50%] ml-[50%] h-full'>
+              <Image
+                src='/shirt-one.png'
+                fill
+                sizes='55vw'
+                alt='one shirt'
+              />
+            </div>
+          </div>
         </div>
       </section>
       <section></section>
