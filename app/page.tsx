@@ -22,7 +22,7 @@ export default function Home() {
                   <Link href='/discover'>Discover</Link>
                 </span>
                 <span className='font-normal text-lg leading-none text-black hover:text-gray-600'>
-                  <Link href='/patners'>Patners</Link>
+                  <Link href='/partners'>Partners</Link>
                 </span>
                 <span className='font-normal text-lg leading-none text-black hover:text-gray-600'>
                   <Link href='/about'>About</Link>
