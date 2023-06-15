@@ -6,7 +6,8 @@ import ResponsiveNav from './components/responsive-nav'
 
 export default function Home() {
   return (
-    <main className='min-h-screen'>
+    <main>
+    <div className='min-h-screen'>
       <header className='static sm:fixed sm:top-0 sm:inset-x-0 sm:z-50 w-full bg-zinc-200'>
         <div className='relative max-w-[90rem] w-full'>
           <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto py-4 flex flex-wrap justify-between items-center gap-6'>
@@ -106,6 +107,7 @@ export default function Home() {
       <section></section>
       <section></section>
       <footer></footer>
+      </div>
     </main>
   )
 }
