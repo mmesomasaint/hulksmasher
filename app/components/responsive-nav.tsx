@@ -6,8 +6,6 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { Menu, Transition } from '@headlessui/react'
 
 function ResponsiveNav() {
-  const [isOpen, setIsOpen] = useState(false)
-  const handleOpen = useCallback(() => setIsOpen((open) => !open), [])
 
   return (
     <Menu>
@@ -15,7 +13,6 @@ function ResponsiveNav() {
         <Menu.Button>
           <GiHamburgerMenu
             className='text-3xl text-black'
-            onClick={handleOpen}
           />
         </Menu.Button>
         <Transition
