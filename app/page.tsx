@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className=''>
+    <main className='min-h-screen'>
       <Header />
       <section className='max-w-[90rem] mx-auto'>
         <div className='relative overflow-hidden h-fit md:h-[40rem] w-full bg-zinc-900'>
