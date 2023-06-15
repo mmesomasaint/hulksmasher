@@ -1,7 +1,6 @@
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 import Image from 'next/image'
 import Link from 'next/link'
-import { GiHamburgerMenu } from 'react-icons/gi'
 import { BsTelephone } from 'react-icons/bs'
 import ResponsiveNav from './components/responsive-nav'
 
