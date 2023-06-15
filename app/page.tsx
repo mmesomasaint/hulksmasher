@@ -7,9 +7,10 @@ import ResponsiveNav from './components/responsive-nav'
 export default function Home() {
   return (
     <main className='min-h-screen'>
-    <header className='sm:fixed sm:top-0 sm:inset-x-0 sm:z-50 w-full bg-zinc-200'>
-      <div className='relative max-w-[90rem] w-[98%] lg:w-[90%] xl:w-[80%] mx-auto py-4 flex flex-wrap justify-between items-center gap-6'>
-        <div className='flex-shrink-0 w-full sm:w-fit'>
+    <header className='static sm:fixed sm:top-0 sm:inset-x-0 sm:z-50 w-full bg-zinc-200'>
+      <div className='relative max-w-[90rem] w-full'>
+        <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto py-4 flex flex-wrap justify-between items-center gap-6'>
+        <div className='px-[1%] flex-shrink-0 w-full sm:w-fit'>
           <Image
             src='/1-shoe.png'
             width={50}
@@ -45,7 +46,7 @@ export default function Home() {
           <div className='block lg:hidden'>
             <ResponsiveNav />
           </div>
-          <button className='flex-shrink-0 flex justify-center items-center gap-2 w-fit sm:w-10 h-10 px-2 sm:px-0 bg-black rounded-xl'>
+          <button className='flex-shrink-0 flex justify-center items-center gap-2 w-fit sm:w-10 h-10 px-2 sm:px-0 mr-[1%] lg:mr-0 bg-black rounded-xl'>
             <BsTelephone className='text-white text-lg sm:text-xl' />
             <span className='sm:hidden text-white text-base'>Call Us</span>
           </button>
@@ -58,6 +59,7 @@ export default function Home() {
             </span>
           </div>
         </div>
+      </div>
       </div>
     </header>
       <section className='max-w-[90rem] mx-auto'>
