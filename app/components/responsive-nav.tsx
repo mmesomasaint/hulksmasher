@@ -9,16 +9,22 @@ type LinkType = {
   address: string
   href: string
 }
-const links: LinkType[] = [{address: 'Home', href: '/'}, {address: 'Discover', href: '/discover'}, {address: 'About', href: '/about'}, {address: 'Partners', href: '/partners'}, {address: 'Feedbacks', href: '/feedback'}, {address: 'Contact', href: '/contact'}]
+
+const links: LinkType[] = [
+  { address: 'Home', href: '/' },
+  { address: 'Discover', href: '/discover' },
+  { address: 'About', href: '/about' },
+  { address: 'Partners', href: '/partners' },
+  { address: 'Feedbacks', href: '/feedback' },
+  { address: 'Contact', href: '/contact' },
+]
 
 function ResponsiveNav() {
   return (
     <Menu>
       <div>
         <Menu.Button>
-          <GiHamburgerMenu
-            className='text-3xl text-black'
-          />
+          <GiHamburgerMenu className='text-3xl text-black' />
         </Menu.Button>
         <Transition
           as={Fragment}
@@ -30,14 +36,14 @@ function ResponsiveNav() {
           leaveTo='transform opacity-0'
         >
           <Menu.Items className='flex bg-zinc-200 w-full flex-col absolute z-10 top-[99%] left-0  justify-evenly items-start gap-7 px-[1%] py-5'>
-            {links.map(({address, href}) => (
-            <Menu.Item>
-              {({ active }) => (
-                <span className='font-normal text-lg leading-none text-primary'>
-                  <Link href={href}>{address}</Link>
-                </span>
-              )}
-            </Menu.Item>
+            {links.map(({ address, href }) => (
+              <Menu.Item>
+                {({ active }) => (
+                  <span className='font-normal text-lg leading-none text-primary'>
+                    <Link href={href}>{address}</Link>
+                  </span>
+                )}
+              </Menu.Item>
             ))}
           </Menu.Items>
         </Transition>
