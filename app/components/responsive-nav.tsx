@@ -1,12 +1,17 @@
 'use client'
 
 import Link from 'next/link'
-import { useState, useCallback, Fragment } from 'react'
+import { Fragment } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { Menu, Transition } from '@headlessui/react'
 
-function ResponsiveNav() {
+type LinkType = {
+  address: string
+  href: string
+}
+const links: LinkType[] = [{address: 'Home', href: '/'}, {address: 'Discover', href: '/discover'}, {address: 'About', href: '/about'}, {address: 'Partners', href: '/partners'}, {address: 'Feedbacks', href: '/feedback'}, {address: 'Contact', href: '/contact'}]
 
+function ResponsiveNav() {
   return (
     <Menu>
       <div>
@@ -25,48 +30,15 @@ function ResponsiveNav() {
           leaveTo='transform opacity-0'
         >
           <Menu.Items className='flex bg-zinc-200 w-full flex-col absolute z-10 top-[99%] left-0  justify-evenly items-start gap-7 px-[1%] py-5'>
+            {links.map(({address, href}) => (
             <Menu.Item>
               {({ active }) => (
                 <span className='font-normal text-lg leading-none text-primary'>
-                  <Link href='/'>Home</Link>
+                  <Link href={href}>{address}</Link>
                 </span>
               )}
             </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black'>
-                  <Link href='/discover'>Discover</Link>
-                </span>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black'>
-                  <Link href='/patners'>Patners</Link>
-                </span>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black'>
-                  <Link href='/about'>About</Link>
-                </span>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black'>
-                  <Link href='/feedback'>Feedbacks</Link>
-                </span>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <span className='font-normal text-lg leading-none text-black'>
-                  <Link href='/contact'>Contact</Link>
-                </span>
-              )}
-            </Menu.Item>
+            ))}
           </Menu.Items>
         </Transition>
       </div>
