@@ -23,7 +23,7 @@ function ResponsiveNav() {
   return (
     <Menu>
       <div>
-        <Menu.Button className='mr-[1%] lg:m-0'>
+        <Menu.Button className='ml-[1%] lg:m-0'>
           <GiHamburgerMenu className='text-3xl text-black' />
         </Menu.Button>
         <Transition
