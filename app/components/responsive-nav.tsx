@@ -28,14 +28,14 @@ function ResponsiveNav() {
         </Menu.Button>
         <Transition
           as={Fragment}
-          enter='transition ease-out duration-100'
-          enterFrom='transform opacity-0'
-          enterTo='transform opacity-100'
-          leave='transition ease-in duration-75'
-          leaveFrom='transform opacity-100'
-          leaveTo='transform opacity-0'
+          enter='transition ease-out duration-100 z-[-1]'
+          enterFrom='transform opacity-0 translate-x-full'
+          enterTo='transform opacity-100 translate-x-0'
+          leave='transition ease-in duration-75 z-[-1]'
+          leaveFrom='transform opacity-100 translate-x-0'
+          leaveTo='transform opacity-0 translate-x-full'
         >
-          <Menu.Items className='flex bg-zinc-200 w-full flex-col absolute z-10 top-[99%] left-0  justify-evenly items-start gap-7 px-[1%] py-5'>
+          <Menu.Items className='flex bg-zinc-200 w-full flex-col absolute z-[-1] top-[99%] left-0  justify-evenly items-start gap-7 px-[1%] py-5'>
             {links.map(({ address, href }) => (
               <Menu.Item>
                 {({ active }) => (
