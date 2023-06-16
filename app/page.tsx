@@ -61,10 +61,10 @@ export default function Home() {
         </header>
         {/**End of header */}
         <section className='max-w-[90rem] mx-auto'>
-          <div className="h-fit md:h-[40rem] w-full bg-[url('/women-taping.jpg')] bg-no-repeat bg-cover bg-center">
+          <div className="h-fit sm:h-[40rem] w-full bg-[url('/women-taping.jpg')] bg-no-repeat bg-cover bg-center">
             <div className='w-full h-full bg-gradient-to-br from-amber-500/50 via-red-500/50 to-amber-500/50'>
               <div className='w-full h-full bg-transparent flex justify-center items-center'>
-                <div className='flex flex-col justify-center items-center gap-7 p-3 w-fit'>
+                <div className='flex flex-col justify-center items-center gap-7 p-3 w-fit mt-10'>
                   <div className='text-6xl font-bold text-white leading-tight text-center'>
                     <h1>Comfy Inside</h1>
                     <h1>Fresh &amp; Fitted Outside</h1>
