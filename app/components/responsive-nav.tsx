@@ -37,7 +37,7 @@ function ResponsiveNav() {
         >
           <Menu.Items className='flex bg-zinc-200 w-full flex-col absolute z-[-1] top-[99%] left-0  justify-evenly items-start gap-7 px-[1%] py-5'>
             {links.map(({ address, href }) => (
-              <Menu.Item>
+              <Menu.Item key={`${address}: ${href}`}>
                 {({ active }) => (
                   <span className='font-normal text-lg leading-none text-primary'>
                     <Link href={href}>{address}</Link>
