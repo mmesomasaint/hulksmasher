@@ -64,23 +64,23 @@ export default function Home() {
           <div className="h-fit sm:h-[40rem] w-full bg-[url('/women-taping.jpg')] bg-no-repeat bg-cover bg-center">
             <div className='w-full h-full bg-gradient-to-br from-amber-500/50 via-red-500/50 to-amber-500/50'>
               <div className='w-full h-full bg-transparent flex justify-center items-center'>
-                <div className='flex flex-col justify-center items-center gap-7 p-3 w-fit mt-10'>
-                  <div className='text-6xl font-bold text-white leading-tight text-center'>
+                <div className='flex flex-col justify-center items-center gap-7 p-3 w-fit mt-20 sm:mt-10 mb-24 sm:mb-0'>
+                  <div className='text-5xl sm:text-6xl font-bold text-white leading-tight text-center'>
                     <h1>Comfy Inside</h1>
                     <h1>Fresh &amp; Fitted Outside</h1>
                   </div>
-                  <div className='flex flex-col items-center justify-between gap-2 text-lg font-medium text-white leading-none text-center'>
+                  <div className='flex flex-col items-center justify-between gap-2 text-base sm:text-lg font-medium text-white leading-tight text-center'>
                     <span>
                       Experience the unparalleled comfort, style and
                       self-expression crafted just for you.
                     </span>
                     <span>Let's get you there with just 3 steps.</span>
                   </div>
-                  <div className='flex justify-evenly items-center gap-7'>
+                  <div className='flex flex-col sm:flex-row justify-evenly items-center gap-7'>
                     <Button secondary>
                       <span className='flex justify-center items-center gap-2'>
                         <span>Learn More</span>
-                        <MdOutlineArrowForwardIos className='text-xl' />
+                        <MdOutlineArrowForwardIos className='text-lg sm:text-xl' />
                       </span>
                     </Button>
                     <Button>
