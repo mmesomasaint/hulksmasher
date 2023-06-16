@@ -76,11 +76,11 @@ export default function Home() {
                     </span>
                     <span>Let's get you there with just 3 steps.</span>
                   </div>
-                  <div className='flex flex-col sm:flex-row justify-evenly items-center gap-7'>
+                  <div className='flex flex-col xs:flex-row justify-evenly items-center gap-7'>
                     <Button secondary>
                       <span className='flex justify-center items-center gap-2'>
                         <span>Learn More</span>
-                        <MdOutlineArrowForwardIos className='text-lg sm:text-xl' />
+                        <MdOutlineArrowForwardIos className='text-lg xs:text-xl' />
                       </span>
                     </Button>
                     <Button>
