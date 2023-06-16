@@ -1,6 +1,6 @@
 type ButtonType = {
   children: React.ReactNode
-  secondary: boolean
+  secondary?: boolean
 }
 
 function Button({children, secondary}: ButtonType) {
