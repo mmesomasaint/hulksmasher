@@ -60,7 +60,33 @@ export default function Home() {
         </header>
         {/**End of header */}
         <section className='max-w-[90rem] mx-auto'>
-          
+          <div className="h-fit md:h-[40rem] w-full bg-[url('/women-taping.jpg')] bg-no-repeat bg-cover bg-center">
+            <div className='w-full h-full bg-gradient-to-br from-amber-500/50 via-red-500/50 to-amber-500/50'>
+              <div className='w-full h-full bg-transparent flex justify-center items-center'>
+                <div className='flex flex-col justify-center items-center gap-7 p-3 w-fit'>
+                  <div className='text-6xl font-bold text-white leading-tight text-center'>
+                    <h1>Comfy Inside</h1>
+                    <h1>Fresh &amp; Fitted Outside</h1>
+                  </div>
+                  <div className='flex flex-col items-center justify-between gap-2 text-lg font-medium text-white leading-none text-center'>
+                    <span>Experience the unparalleled comfort, style and self-expression crafted just for you.</span>
+                    <span>Let's get you there with just 3 steps.</span>
+                  </div>
+                  <div className='flex justify-evenly items-center gap-7'>
+                    <button className='px-6 py-3 rounded-md bg-amber-500 text-base font-medium text-white'>
+                      <span className='flex justify-center items-center gap-2'>
+                        <span>Learn More</span>
+                        <MdOutlineArrowForwardIos className='text-xl' />
+                      </span>
+                    </button>
+                    <button className='px-6 py-3 rounded-md bg-red-500 text-base font-medium text-white'>
+                      <span>Request Service</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         {/**End of showcase */}
         <section></section>
