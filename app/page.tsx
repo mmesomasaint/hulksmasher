@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { BsTelephone } from 'react-icons/bs'
 import ResponsiveNav from './components/responsive-nav'
+import Button from './components/button'
 
 export default function Home() {
   return (
@@ -73,15 +74,15 @@ export default function Home() {
                     <span>Let's get you there with just 3 steps.</span>
                   </div>
                   <div className='flex justify-evenly items-center gap-7'>
-                    <button className='px-6 py-3 rounded-md bg-amber-500 text-base font-medium text-white'>
+                    <Button secondary>
                       <span className='flex justify-center items-center gap-2'>
                         <span>Learn More</span>
                         <MdOutlineArrowForwardIos className='text-xl' />
                       </span>
-                    </button>
-                    <button className='px-6 py-3 rounded-md bg-red-500 text-base font-medium text-white'>
+                    </Button>
+                    <Button>
                       <span>Request Service</span>
-                    </button>
+                    </Button>
                   </div>
                 </div>
               </div>
