@@ -36,11 +36,11 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-              <div className='sticky top-0 z-50 flex justify-between sm:justify-end items-center w-full sm:w-fit gap-3 bg-zinc-200'>
+              <div className='sticky top-0 z-50 flex justify-between sm:justify-end items-center w-full sm:w-fit gap-3 bg-zinc-200 px-[2%]'>
                 <div className='block lg:hidden'>
                   <ResponsiveNav />
                 </div>
-                <button className='flex-shrink-0 flex justify-center items-center gap-2 w-fit sm:w-10 h-10 px-2 sm:px-0 mr-[1%] sm:mr-0 bg-black rounded-xl'>
+                <button className='flex-shrink-0 flex justify-center items-center gap-2 w-fit sm:w-10 h-10 px-2 sm:px-0 bg-black rounded-xl'>
                   <BsTelephone className='text-white text-lg sm:text-xl' />
                   <span className='sm:hidden text-white text-base'>
                     Call Us
