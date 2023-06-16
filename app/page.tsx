@@ -70,7 +70,10 @@ export default function Home() {
                     <h1>Fresh &amp; Fitted Outside</h1>
                   </div>
                   <div className='flex flex-col items-center justify-between gap-2 text-lg font-medium text-white leading-none text-center'>
-                    <span>Experience the unparalleled comfort, style and self-expression crafted just for you.</span>
+                    <span>
+                      Experience the unparalleled comfort, style and
+                      self-expression crafted just for you.
+                    </span>
                     <span>Let's get you there with just 3 steps.</span>
                   </div>
                   <div className='flex justify-evenly items-center gap-7'>
