@@ -93,7 +93,10 @@ export default function Home() {
           </div>
         </section>
         {/**End of showcase */}
-        <section></section>
+        <section className='max-w-[90rem] mx-auto'>
+          
+        </section>
+        {/**End of about */}
         <section></section>
         <footer></footer>
       </div>
