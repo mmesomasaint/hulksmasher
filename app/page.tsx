@@ -105,21 +105,21 @@ export default function Home() {
                   <Image src='/classy-man-tailor-shop.jpg' width={450} height={400} alt='about industry employees' className='absolute top-[150px] xl:top-[100px] right-0' />
                 </div>
                 <div className='flex order-first md:order-none flex-col justify-start items-start gap-5 px-[2%] md:px-10'>
-                  <h3 className='text-base font-medium text-black leading-none'>What We Are About</h3>
-                  <h2 className='text-4xl font-bold text-red-500 leading-tight'>We Dress Our Clients For Any Occasion</h2>
-                  <p className='text-black text-base font-medium leading-tight'>We take pride in our work and the satisfaction of our clients. For every type of cloth and material we turn them into the best experience.</p>
+                  <h3 className='text-sm sm:text-base font-medium text-black leading-none'>What We Are About</h3>
+                  <h2 className='text-3xl sm:text-4xl font-bold text-red-500 leading-tight'>We Dress Our Clients For Any Occasion</h2>
+                  <p className='text-black text-sm sm:text-base font-medium leading-tight'>We take pride in our work and the satisfaction of our clients. For every type of cloth and material we turn them into the best experience.</p>
                   <div className='py-3 flex justify-start items-start gap-3'>
                     <div className='w-12 h-12 flex shrink-0 justify-center items-center rounded-2xl border border-zinc-600'></div>
                     <div className='flex flex-col justify-start items-start gap-2'>
-                      <span className='text-base font-semibold text-amber-600 leading-none'>Our Mission</span>
-                      <span className='text-black text-sm font-normal leading-tight'>Make the experience in every cloth and footwear worth remembering for comfy & fitness.</span>
+                      <span className='text-sm sm:text-base font-semibold text-amber-600 leading-none'>Our Mission</span>
+                      <span className='text-black text-xs sm:text-sm font-normal leading-tight'>Make the experience in every cloth and footwear worth remembering for comfy & fitness.</span>
                     </div>
                   </div>
                   <div className='py-3 flex justify-start items-start gap-3'>
                     <div className='w-12 h-12 flex shrink-0 justify-center items-center rounded-2xl border border-zinc-600'></div>
                     <div className='flex flex-col justify-start items-start gap-2'>
-                      <span className='text-base font-semibold text-amber-600 leading-none'>Our Vision</span>
-                      <span className='text-black text-sm font-normal leading-tight'>Make the experience in every cloth and footwear worth remembering for comfy & fitness.</span>
+                      <span className='text-sm sm:text-base font-semibold text-amber-600 leading-none'>Our Vision</span>
+                      <span className='text-black text-xs sm:text-sm font-normal leading-tight'>Make the experience in every cloth and footwear worth remembering for comfy & fitness.</span>
                     </div>
                   </div>
                 </div>
