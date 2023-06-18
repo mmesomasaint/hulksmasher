@@ -35,11 +35,11 @@ function ResponsiveNav() {
           leaveFrom='transform translate-x-0'
           leaveTo='transform translate-x-full'
         >
-          <Menu.Items className='flex bg-zinc-100 w-full flex-col absolute z-[-1] top-[99%] left-0  justify-evenly items-start gap-7 px-[1%] py-5'>
+          <Menu.Items className='flex bg-zinc-100 w-full flex-col absolute z-[-1] top-[99%] left-0  justify-evenly items-start pt-5'>
             {links.map(({ address, href }) => (
               <Menu.Item key={`${address}: ${href}`}>
                 {({ active }) => (
-                  <span className='font-normal text-lg leading-none text-primary'>
+                  <span className='font-normal text-lg leading-none text-primary px-[2%] py-4 w-full'>
                     <Link href={href}>{address}</Link>
                   </span>
                 )}
