@@ -41,12 +41,14 @@ export default function Home() {
                 <div className='block lg:hidden'>
                   <ResponsiveNav />
                 </div>
-                <button className='flex-shrink-0 flex justify-center items-center gap-2 w-fit sm:w-10 h-10 px-2 sm:px-0 bg-black rounded-xl'>
+                <Button>
+                  <span className='flex-shrink-0 flex justify-center items-center gap-2 w-fit'>
                   <BsTelephone className='text-white text-lg sm:text-xl' />
                   <span className='sm:hidden text-white text-base'>
                     Call Us
                   </span>
-                </button>
+                  </span>
+                  </Button>
                 <div className='hidden sm:flex flex-col justify-center items-start gap-2 mr-[2%] lg:mr-0'>
                   <span className='font-light text-base leading-none text-black'>
                     Call Us
