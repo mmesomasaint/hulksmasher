@@ -99,10 +99,10 @@ export default function Home() {
             <Image src='/pattern.png' width={500} height={500} alt='pattern' className="hidden lg:block absolute -right-[15%] transform -rotate-45 origin-top-right grayscale" />
             <div className='w-full h-fit bg-zinc-100'>
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-wrap justify-between items-center gap-6 py-20'>
-              <div className='w-full h-fit grid grid-cols-1 md:grid-cols-2 place-content-stretch gap-7'>
-                <div className='relative h-full'>
-                  <Image src='/workplace-artisan.jpg' width={250} height={200} alt='about industry' className='absolute top-0 left-0' />
-                  <Image src='/classy-man-tailor-shop.jpg' width={450} height={400} alt='about industry employees' className='absolute top-[150px] xl:top-[100px] right-0' />
+              <div className='w-full h-fit grid grid-cols-1 md:grid-cols-2 place-content-stretch gap-7 px-7'>
+                <div className='relative h-full px-[2%] sm:px-0'>
+                  <Image src='/workplace-artisan.jpg' width={250} height={200} alt='about industry' className='block relative md:absolute top-0 -translate-x-[50%] md:translate-x-0 left-[50%] md:left-0' />
+                  <Image src='/classy-man-tailor-shop.jpg' width={450} height={400} alt='about industry employees' className='block relative md:absolute top-0 md:top-[160px] -translate-x-[50%] left-[50%] md:-translate-x-full md:left-full' />
                 </div>
                 <div className='flex order-first md:order-none flex-col justify-start items-start gap-5 px-[2%] md:px-10'>
                   <h3 className='text-sm sm:text-base font-medium text-black leading-none'>What We Are About</h3>
