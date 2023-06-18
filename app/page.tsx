@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <div className='min-h-screen'>
         <header className='static sm:fixed sm:top-0 sm:inset-x-0 sm:z-50 w-full bg-zinc-100'>
-          <div className='max-w-[90rem] w-full'>
+          <div className='max-w-[90rem] mx-auto w-full'>
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto py-4 flex flex-wrap justify-between items-center gap-6'>
               <div className='px-[1%] flex-shrink-0 w-full sm:w-fit'>
                 <Image src='/1-shoe.png' width={50} height={30} alt='logo' />
