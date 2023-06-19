@@ -174,20 +174,18 @@ export default function Home() {
         </section>
         {/**End of about */}
         <section className='bg-zinc-100'>
-                    <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
-                      What We Have Done
-                    </h3>
-                    <h2 className='text-3xl sm:text-4xl font-bold text-red-500 leading-tight'>
-                      Our Crafts Are Made Specific To Each Client &amp; Occasion
-                    </h2>
-                    <p className='text-black text-sm sm:text-base font-medium leading-tight'>
-                      We take pride in our work and the satisfaction of our
-                      clients. For every type of cloth and material we turn them
-                      into the best experience.
-                    </p>
-                    <div className='p-3'>
-                      
-                    </div>
+          <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
+            What We Have Done
+          </h3>
+          <h2 className='text-3xl sm:text-4xl font-bold text-red-500 leading-tight'>
+            Our Crafts Are Made Specific To Each Client &amp; Occasion
+          </h2>
+          <p className='text-black text-sm sm:text-base font-medium leading-tight'>
+            We take pride in our work and the satisfaction of our clients. For
+            every type of cloth and material we turn them into the best
+            experience.
+          </p>
+          <div className='p-3'></div>
         </section>
         {/**End of portfolio */}
         <footer></footer>
