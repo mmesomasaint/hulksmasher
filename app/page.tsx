@@ -174,6 +174,7 @@ export default function Home() {
         </section>
         {/**End of about */}
         <section className='bg-zinc-100'>
+          <div className='max-w-[90rem] mx-auto'>
           <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
             What We Have Done
           </h3>
@@ -185,6 +186,7 @@ export default function Home() {
             every type of cloth and material we turn them into the best
             experience.
           </p>
+          </div>
         </section>
         {/**End of portfolio */}
         <footer></footer>
