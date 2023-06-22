@@ -175,7 +175,7 @@ export default function Home() {
         {/**End of about */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-wrap justify-between items-center gap-6 py-20'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
               <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
                 What We Have Done
               </h3>
