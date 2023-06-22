@@ -185,7 +185,6 @@ export default function Home() {
             every type of cloth and material we turn them into the best
             experience.
           </p>
-          <div className='p-3'></div>
         </section>
         {/**End of portfolio */}
         <footer></footer>
