@@ -189,9 +189,9 @@ export default function Home() {
                 experience.
               </p>
               <div className='grid grid-cols-5 place-items-stretch gap-5 mt-5'>
-                {Array(5).map((_, id) => (
+                {['1', '2', '3', '4', '5'].map((key) => (
                   <CraftCard
-                    key={id}
+                    key={key}
                     src='/designer-with-tab.jpg'
                     title='Employee'
                     occasion='Workplace'
