@@ -190,11 +190,13 @@ export default function Home() {
               </p>
               <div className='grid grid-cols-5 place-items-stretch gap-5 mt-5'>
                 {Array(5).map((_, id) => (
-                <CraftCard key={id}
-                  src='/designer-with-tab.jpg'
-                  title='Employee'
-                  occasion='Workplace'
-                />))}
+                  <CraftCard
+                    key={id}
+                    src='/designer-with-tab.jpg'
+                    title='Employee'
+                    occasion='Workplace'
+                  />
+                ))}
               </div>
             </div>
           </div>
