@@ -187,6 +187,15 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </p>
+              <div className='grid grid-cols-5 place-items-stretch gap-5 mt-5'>
+                <div className='rounded-2xl border border-black/40 hover:border-red-500 flex flex-col justify-between items-start'>
+                  <Image src='/designer-with-tab.jpg' width={200} height={200} alt='employee' className='flex-grow rounded-t-2xl'/>
+                  <div className='flex flex-col gap-2 justify-start items-start p-3'>
+                    <span className='text-sm font-light text-black leading-none'><span className='text-black font-semibold'>Occasion:</span>&nbsp;Workplace</span>
+                    <span className='text-sm font-light text-black leading-none'><span className='text-black font-semibold'>Title:</span>&nbsp;Employee</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
