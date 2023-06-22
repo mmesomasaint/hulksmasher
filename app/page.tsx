@@ -175,6 +175,7 @@ export default function Home() {
         {/**End of about */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
+          <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto py-20'>
             <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
               What We Have Done
             </h3>
@@ -186,6 +187,7 @@ export default function Home() {
               every type of cloth and material we turn them into the best
               experience.
             </p>
+          </div>
           </div>
         </section>
         {/**End of portfolio */}
