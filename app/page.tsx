@@ -180,7 +180,7 @@ export default function Home() {
                 What We Have Done
               </h3>
               <h2 className='text-3xl sm:text-4xl font-bold text-red-500 leading-tight w-full md:w-[50%] text-center'>
-                Our Crafts Are Custom-made To  Client &amp; Occasion
+                Our Crafts Are Custom-made To Client &amp; Occasion
               </h2>
               <p className='text-black text-sm sm:text-base font-medium leading-tight w-full md:w-[50%] text-center'>
                 We take pride in our work and the satisfaction of our clients.
