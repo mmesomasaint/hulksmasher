@@ -18,3 +18,5 @@ function CraftCard({src, title, occasion}: CraftCardType) {
 
   )
 }
+
+export default CraftCard
