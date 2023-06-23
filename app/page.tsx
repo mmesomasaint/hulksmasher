@@ -134,7 +134,11 @@ export default function Home() {
                     />
                   </div>
                   <div className='flex order-first md:order-none flex-col justify-start items-start gap-5 px-[2%] md:px-10'>
-                    <TitleBox intro='What We Are About' main='We Dress Our Clients For Any Occasion' pos='LEFT'>
+                    <TitleBox
+                      intro='What We Are About'
+                      main='We Dress Our Clients For Any Occasion'
+                      pos='LEFT'
+                    >
                       We take pride in our work and the satisfaction of our
                       clients. For every type of cloth and material we turn them
                       into the best experience.
@@ -173,11 +177,15 @@ export default function Home() {
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
-                    <TitleBox intro='What We Have Done' main='Our Crafts Are Custom-made To Client &amp; Occasion' pos='CENTER'>
-                      We take pride in our work and the satisfaction of our
-                      clients. For every type of cloth and material we turn them
-                      into the best experience.
-                    </TitleBox>
+              <TitleBox
+                intro='What We Have Done'
+                main='Our Crafts Are Custom-made To Client &amp; Occasion'
+                pos='CENTER'
+              >
+                We take pride in our work and the satisfaction of our clients.
+                For every type of cloth and material we turn them into the best
+                experience.
+              </TitleBox>
               <div className='grid grid-cols-5 place-items-stretch gap-5 mt-5'>
                 {PastWorks.map(({ src, occasion, title }) => (
                   <CraftCard
