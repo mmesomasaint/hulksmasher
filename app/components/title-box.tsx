@@ -1,10 +1,10 @@
 type TitleBoxType = {
-  intro: string 
+  intro: string
   main: string
   children: React.ReactNode
 }
 
-function TitleBox({intro, main, children}: TitleBoxType) {
+function TitleBox({ intro, main, children }: TitleBoxType) {
   return (
     <div className='flex order-first md:order-none flex-col justify-start items-start gap-5 px-[2%] md:px-10'>
       <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
