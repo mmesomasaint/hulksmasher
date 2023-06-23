@@ -6,6 +6,7 @@ import ResponsiveNav from './components/responsive-nav'
 import Button from './components/button'
 import CraftCard from './components/craft-card'
 import PastWorks from './lib/past-works'
+import TitleBox from './components/title-box'
 
 export default function Home() {
   return (
@@ -133,17 +134,11 @@ export default function Home() {
                     />
                   </div>
                   <div className='flex order-first md:order-none flex-col justify-start items-start gap-5 px-[2%] md:px-10'>
-                    <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
-                      What We Are About
-                    </h3>
-                    <h2 className='text-3xl sm:text-4xl font-bold text-red-500 leading-tight'>
-                      We Dress Our Clients For Any Occasion
-                    </h2>
-                    <p className='text-black text-sm sm:text-base font-medium leading-tight'>
+                    <TitleBox intro='What We Are About' main='We Dress Our Clients For Any Occasion' pos='LEFT'>
                       We take pride in our work and the satisfaction of our
                       clients. For every type of cloth and material we turn them
                       into the best experience.
-                    </p>
+                    </TitleBox>
                     <div className='py-3 flex justify-start items-start gap-3'>
                       <div className='w-12 h-12 flex shrink-0 justify-center items-center rounded-2xl border border-zinc-600'></div>
                       <div className='flex flex-col justify-start items-start gap-2'>
@@ -178,17 +173,11 @@ export default function Home() {
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
-              <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
-                What We Have Done
-              </h3>
-              <h2 className='text-3xl sm:text-4xl font-bold text-red-500 leading-tight w-full md:w-[50%] text-center'>
-                Our Crafts Are Custom-made To Client &amp; Occasion
-              </h2>
-              <p className='text-black text-sm sm:text-base font-medium leading-tight w-full md:w-[50%] text-center'>
-                We take pride in our work and the satisfaction of our clients.
-                For every type of cloth and material we turn them into the best
-                experience.
-              </p>
+                    <TitleBox intro='What We Have Done' main='Our Crafts Are Custom-made To Client &amp; Occasion' pos='CENTER'>
+                      We take pride in our work and the satisfaction of our
+                      clients. For every type of cloth and material we turn them
+                      into the best experience.
+                    </TitleBox>
               <div className='grid grid-cols-5 place-items-stretch gap-5 mt-5'>
                 {PastWorks.map(({ src, occasion, title }) => (
                   <CraftCard
