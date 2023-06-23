@@ -201,7 +201,9 @@ export default function Home() {
         </section>
         {/**End of portfolio */}
         <section className='bg-zinc-100'>
-          
+          <div className='max-w-[90rem] mx-auto'>
+
+          </div>
         </section>
         {/**End of how it works */}
         <footer></footer>
