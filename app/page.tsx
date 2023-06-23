@@ -200,8 +200,8 @@ export default function Home() {
           </div>
         </section>
         {/**End of portfolio */}
-        <section>
-
+        <section className='bg-zinc-100'>
+          
         </section>
         {/**End of how it works */}
         <footer></footer>
