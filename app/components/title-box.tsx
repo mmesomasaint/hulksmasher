@@ -7,7 +7,7 @@ type TitleBoxType = {
 
 function TitleBox({ intro, main, pos, children }: TitleBoxType) {
   return (
-    <div className='flex order-first md:order-none flex-col justify-start items-start gap-5 px-[2%] md:px-10'>
+    <div className={`flex flex-col justify-start ${pos === "LEFT" && 'items-start'} ${pos === "RIGHT" && 'items-end'} ${pos === "CENTER" && 'items-center'} gap-5`}>
       <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
         {intro}
       </h3>
