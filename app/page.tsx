@@ -7,6 +7,8 @@ import Button from './components/button'
 import CraftCard from './components/craft-card'
 
 export default function Home() {
+  const srcset = ['/african-elder.jpg', '/african-woman-looking-up.jpg','/african-woman-wearing-traditional.jpg', '/caucasian-african-dress.jpg', '/man-wearing-african-traditional.jpg']
+
   return (
     <main>
       <div className='min-h-screen'>
