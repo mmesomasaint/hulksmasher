@@ -8,7 +8,6 @@ import CraftCard from './components/craft-card'
 import PastWorks from './lib/past-works'
 
 export default function Home() {
-
   return (
     <main>
       <div className='min-h-screen'>
