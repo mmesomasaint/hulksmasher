@@ -26,3 +26,5 @@ function TitleBox({ intro, main, pos, children }: TitleBoxType) {
     </div>
   )
 }
+
+export default TitleBox
