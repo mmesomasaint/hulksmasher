@@ -179,7 +179,7 @@ export default function Home() {
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
               <TitleBox
                 intro='What We Have Done'
-                main='Our Crafts Are Custom-made To Client &amp; Occasion'
+                main='Our Crafts Are Custom-made To Fit Client &amp; Occasion'
                 pos='CENTER'
               >
                 We take pride in our work and the satisfaction of our clients.
