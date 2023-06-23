@@ -151,7 +151,7 @@ export default function Home() {
                         </span>
                         <span className='text-black text-xs sm:text-sm font-normal leading-tight'>
                           Make the experience in every cloth and footwear worth
-                          remembering for comfy & fitness.
+                          remembering for comfy &amp; fitness.
                         </span>
                       </div>
                     </div>
@@ -163,7 +163,7 @@ export default function Home() {
                         </span>
                         <span className='text-black text-xs sm:text-sm font-normal leading-tight'>
                           Make the experience in every cloth and footwear worth
-                          remembering for comfy & fitness.
+                          remembering for comfy &amp; fitness.
                         </span>
                       </div>
                     </div>
