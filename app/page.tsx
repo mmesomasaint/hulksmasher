@@ -5,37 +5,9 @@ import { BsTelephone } from 'react-icons/bs'
 import ResponsiveNav from './components/responsive-nav'
 import Button from './components/button'
 import CraftCard from './components/craft-card'
-
-type SrcType = {
-  src: string
-  occasion: string
-  title: string
-}
+import PastWorks from './lib/past-works'
 
 export default function Home() {
-  const srcset: SrcType[] = [
-    { src: '/african-elder.jpg', occasion: 'August Union', title: 'Ichie' },
-    {
-      src: '/african-woman-looking-up.jpg',
-      occasion: 'Photo Shoot',
-      title: 'Nwa Ada',
-    },
-    {
-      src: '/african-woman-wearing-traditional.jpg',
-      occasion: 'Umuada Union',
-      title: 'Umuada',
-    },
-    {
-      src: '/caucasian-african-dress.jpg',
-      occasion: 'Afro Wedding',
-      title: 'Brides Maid',
-    },
-    {
-      src: '/man-wearing-african-traditional.jpg',
-      occasion: 'Senate Visit',
-      title: 'Member',
-    },
-  ]
 
   return (
     <main>
@@ -219,7 +191,7 @@ export default function Home() {
                 experience.
               </p>
               <div className='grid grid-cols-5 place-items-stretch gap-5 mt-5'>
-                {srcset.map(({ src, occasion, title }) => (
+                {PastWorks.map(({ src, occasion, title }) => (
                   <CraftCard
                     key={`${src} ${occasion} ${title}`}
                     src={src}
