@@ -203,7 +203,15 @@ export default function Home() {
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
-
+              <TitleBox
+                intro='How It Works'
+                main='Bring Your Desire To Reality With Just 3 Steps'
+                pos='CENTER'
+              >
+                We take pride in our work and the satisfaction of our clients.
+                For every type of cloth and material we turn them into the best
+                experience.
+              </TitleBox>
             </div>
           </div>
         </section>
