@@ -200,6 +200,10 @@ export default function Home() {
           </div>
         </section>
         {/**End of portfolio */}
+        <section>
+
+        </section>
+        {/**End of how it works */}
         <footer></footer>
       </div>
     </main>
