@@ -213,7 +213,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='grid grid-cols-4 gap-10 place-items-stretch'>
+              <div className='grid grid-cols-4 gap-10 place-items-stretch mt-10'>
                 <HowCard title='Request Service'>
                   Contact us with design or description.
                 </HowCard>
