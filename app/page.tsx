@@ -216,7 +216,7 @@ export default function Home() {
               </TitleBox>
               <div className='grid grid-cols-4 gap-10 place-items-stretch'>
                 <HowCard title='Request Service'>
-                  Contact us with deisgn or description.
+                  Contact us with design or description.
                 </HowCard>
                 <HowCard title='Request Service'>
                   Contact us with deisgn or description.
