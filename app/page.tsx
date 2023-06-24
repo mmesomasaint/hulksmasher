@@ -241,8 +241,7 @@ export default function Home() {
                   pos='LEFT'
                 >
                   We take pride in our work and the satisfaction of our clients.
-                  For every type of cloth and material we turn them into the
-                  best experience.
+                  For every type of cloth.
                 </TitleBox>
                 <Button>Request Service</Button>
               </div>
