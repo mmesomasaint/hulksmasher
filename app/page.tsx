@@ -231,6 +231,8 @@ export default function Home() {
           </div>
         </section>
         {/**End of how it works */}
+        <section></section>
+        {/**End of get yours */}
         <footer></footer>
       </div>
     </main>
