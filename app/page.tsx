@@ -244,6 +244,7 @@ export default function Home() {
                   For every type of cloth and material we turn them into the
                   best experience.
                 </TitleBox>
+                <Button>Request Service</Button>
               </div>
               <div className='col-span-2 grid grid-cols-3 gap-2 items-center'>
                 <div className='col-span-2 relative'>
