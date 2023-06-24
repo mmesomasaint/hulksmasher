@@ -21,3 +21,5 @@ function HowCard({ title, children }: HowCardType) {
     </div>
   )
 }
+
+export default HowCard
