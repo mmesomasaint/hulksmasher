@@ -236,7 +236,7 @@ export default function Home() {
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch gap-32 py-20'>
               <div>
                 <TitleBox
-                  intro='Take The Step'
+                  intro='Take The 1st Step'
                   main='Got A Design/Description?'
                   pos='LEFT'
                 >
