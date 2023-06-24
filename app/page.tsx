@@ -233,7 +233,7 @@ export default function Home() {
         {/**End of how it works */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch gap-5 py-20'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch gap-20 py-20'>
               <div>
                 <TitleBox
                   intro='Take The Step'
@@ -244,6 +244,14 @@ export default function Home() {
                   For every type of cloth and material we turn them into the
                   best experience.
                 </TitleBox>
+              </div>
+              <div className='col-span-2 grid grid-cols-3 gap-5 items-center'>
+                <div className='col-span-2 relative'>
+                  <Image src='/old-vintage-hand-sewing-machine.jpg' width={550} height={200} alt='Old vintage hand sewing machine' className='' />
+                </div>
+                <div>
+                  <Image src='/marriage-man-woman.jpg' width={550} height={200} alt='Traditional wedded man and woman' className='' />
+                </div>
               </div>
             </div>
           </div>
