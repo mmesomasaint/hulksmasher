@@ -232,9 +232,8 @@ export default function Home() {
         </section>
         {/**End of how it works */}
         <section className='bg-zinc-100'>
-          <div className='max-w-[90rem] mx-auto'>
-          </div>
-          </section>
+          <div className='max-w-[90rem] mx-auto'></div>
+        </section>
         {/**End of get yours */}
         <footer></footer>
       </div>
