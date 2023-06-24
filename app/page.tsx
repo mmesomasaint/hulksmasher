@@ -218,14 +218,14 @@ export default function Home() {
                 <HowCard title='Request Service'>
                   Contact us with design or description.
                 </HowCard>
-                <HowCard title='Request Service'>
-                  Contact us with deisgn or description.
+                <HowCard title='Get Measurements'>
+                  We come to you and take your measurements.
                 </HowCard>
-                <HowCard title='Request Service'>
-                  Contact us with deisgn or description.
+                <HowCard title='Build Process'>
+                  Your Design &amp; Desire is brought to life.
                 </HowCard>
-                <HowCard title='Request Service'>
-                  Contact us with deisgn or description.
+                <HowCard title='Delivery'>
+                  Get your package in time for the occasion.
                 </HowCard>
               </div>
             </div>
