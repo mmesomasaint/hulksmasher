@@ -1,5 +1,4 @@
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
-import { HiArrowSmRight } from 'react-icons/hi'
 import Image from 'next/image'
 import Link from 'next/link'
 import { BsTelephone } from 'react-icons/bs'
