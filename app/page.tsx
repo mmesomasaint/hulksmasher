@@ -237,7 +237,7 @@ export default function Home() {
               <div>
                 <TitleBox
                   intro='Take The 1st Step'
-                  main='Got A Design/Description?'
+                  main='Got A Design/Description Ready?'
                   pos='LEFT'
                 >
                   We take pride in our work and the satisfaction of our clients.
