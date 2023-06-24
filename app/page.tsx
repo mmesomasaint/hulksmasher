@@ -231,7 +231,7 @@ export default function Home() {
           </div>
         </section>
         {/**End of how it works */}
-        <section></section>
+        <section className='bg-zinc-100'></section>
         {/**End of get yours */}
         <footer></footer>
       </div>
