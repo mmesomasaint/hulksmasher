@@ -234,7 +234,7 @@ export default function Home() {
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch gap-32 py-20'>
-              <div>
+              <div className='flex flex-col justify-start items-start gap-5'>
                 <TitleBox
                   intro='Take The 1st Step'
                   main='Got A Design/Description Ready?'
