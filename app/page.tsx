@@ -232,7 +232,10 @@ export default function Home() {
         </section>
         {/**End of how it works */}
         <section className='bg-zinc-100'>
-          <div className='max-w-[90rem] mx-auto'></div>
+          <div className='max-w-[90rem] mx-auto'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch gap-5 py-20'>
+            </div>
+          </div>
         </section>
         {/**End of get yours */}
         <footer></footer>
