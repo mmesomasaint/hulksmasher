@@ -247,10 +247,22 @@ export default function Home() {
               </div>
               <div className='col-span-2 grid grid-cols-3 gap-5 items-center'>
                 <div className='col-span-2 relative'>
-                  <Image src='/old-vintage-hand-sewing-machine.jpg' width={550} height={200} alt='Old vintage hand sewing machine' className='' />
+                  <Image
+                    src='/old-vintage-hand-sewing-machine.jpg'
+                    width={550}
+                    height={200}
+                    alt='Old vintage hand sewing machine'
+                    className=''
+                  />
                 </div>
                 <div>
-                  <Image src='/marriage-man-woman.jpg' width={550} height={200} alt='Traditional wedded man and woman' className='' />
+                  <Image
+                    src='/marriage-man-woman.jpg'
+                    width={550}
+                    height={200}
+                    alt='Traditional wedded man and woman'
+                    className=''
+                  />
                 </div>
               </div>
             </div>
