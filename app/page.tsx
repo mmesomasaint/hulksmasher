@@ -236,8 +236,8 @@ export default function Home() {
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch gap-5 py-20'>
               <div>
                 <TitleBox
-                  intro='How It Works'
-                  main='Bring Your Desire To Reality With Just 3 Steps'
+                  intro='Take The Step'
+                  main='Got A Design/Description?'
                   pos='LEFT'
                 >
                   We take pride in our work and the satisfaction of our clients.
