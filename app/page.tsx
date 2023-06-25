@@ -18,7 +18,7 @@ type ReviewType = {
 }
 
 export default function Home() {
-  const reviews: ReviewType[] = [{name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}]
+  const reviews: ReviewType[] = [{name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}, {name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}, {name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}, {name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}]
 
   return (
     <main>
