@@ -1,7 +1,7 @@
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsTelephone } from 'react-icons/bs'
+import { BsTelephone, BsStarFill, BsStarHalf, BsStar } from 'react-icons/bs'
 import ResponsiveNav from './components/responsive-nav'
 import Button from './components/button'
 import CraftCard from './components/craft-card'
