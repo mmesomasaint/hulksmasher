@@ -19,7 +19,7 @@ function ReviewCard({review: {name, role, star, said}}: ReviewCardType) {
             <p>{role}</p>
             <div className='flex justify-start items-center gap-1'>
               {[1, 2, 3, 4, 5].map((key) => {
-                const Star = ({StarIcon}: {StarIcon: IconType}) {
+                const Star = ({StarIcon}: {StarIcon: IconType}) => {
                   return (
                     <StarIcon className='text-lg text-amber-500' />
                   )
