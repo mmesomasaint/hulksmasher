@@ -10,7 +10,16 @@ import PastWorks from './lib/past-works'
 import TitleBox from './components/title-box'
 import HowCard from './components/how-card'
 
+type ReviewType = {
+  name: string
+  role: string 
+  star: number
+  said: string
+}
+
 export default function Home() {
+  const reviews: ReviewType[] = [{name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}]
+
   return (
     <main>
       <div className='min-h-screen'>
@@ -281,6 +290,14 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
+              <div className='relative flex overflow-hidden h-[10rem]'>
+          <div className='flex-shrink-0 w-full' />
+          <div className='flex-shrink-0 w-full'>
+                [[1, 2], [3, 4], [5, 6]].map((review) => {
+                  
+                })
+          </div>
+              </div>
             </div>
           </div>
         </section>
