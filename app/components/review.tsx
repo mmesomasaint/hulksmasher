@@ -61,8 +61,7 @@ function Review({ reviews }: ReviewNodeType) {
               hide ? 'hidden' : 'block'
             } absolute inset-y-0 my-auto w-full transform duration-1000`}
           >
-            <div />
-            <div />
+            
           </div>
         )
       })}

@@ -54,3 +54,5 @@ function ReviewCard({ review: { name, role, star, said } }: ReviewCardType) {
     </div>
   )
 }
+
+export default ReviewCard
