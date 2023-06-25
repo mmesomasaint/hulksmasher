@@ -8,13 +8,13 @@ type ReviewCardType = {
   review: ReviewType
 }
 
-function ReviewCard({ review: { name, role, star, said } }: ReviewCardType) {
+function ReviewCard({ review: { imgSrc, name, role, star, said } }: ReviewCardType) {
   return (
     <div className='flex flex-col justify-start items-start gap-5'>
       <div className='grid grid-cols-3 place-items-stretch gap-10'>
         <div className='col-span-2 grid grid-cols-2 place-items-stretch'>
           <Image
-            src='/asset-tailors.png'
+            src={imgSrc}
             width={200}
             height={200}
             alt="Review author's avatar"
