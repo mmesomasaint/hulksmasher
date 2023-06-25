@@ -33,9 +33,9 @@ function ReviewCard({ review: { name, role, star, said } }: ReviewCardType) {
                   return <StarIcon className='text-lg text-amber-500' />
                 }
 
-                if (star > key) return <Star StarIcon={BsStarFill} />
-                else if (star < key) return <Star StarIcon={BsStar} />
-                else return <Star StarIcon={BsStarHalf} />
+                if (star > key) return <Star key={key} StarIcon={BsStarFill} />
+                else if (star < key) return <Star key={key} StarIcon={BsStar} />
+                else return <Star key={key} StarIcon={BsStarHalf} />
               })}
             </div>
           </div>
