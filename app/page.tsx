@@ -268,7 +268,9 @@ export default function Home() {
           </div>
         </section>
         {/**End of get yours */}
-        <section></section>
+        <section className='bg-zinc-100'>
+          
+        </section>
         {/**End of feedback */}
         <footer></footer>
       </div>
