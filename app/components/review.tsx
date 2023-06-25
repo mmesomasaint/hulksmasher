@@ -1,6 +1,11 @@
 import {useMemo} from 'react'
+import { ReviewType } from '../lib/reviews'
 
-function Review({reviews}) {
+type ReviewNodeType = {
+  reviews: ReviewType[]
+}
+
+function Review({reviews}: ReviewNodeType) {
   const pairedReviews: ReviewType[][] = useMemo(() => {
     const list: ReviewType[][] = []
     for(let i = 0; i < reviews.length - 1; i+=2) {
