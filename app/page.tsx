@@ -270,7 +270,8 @@ export default function Home() {
         {/**End of get yours */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
+            </div>
           </div>
         </section>
         {/**End of feedback */}
