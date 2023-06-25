@@ -8,7 +8,9 @@ type ReviewCardType = {
   review: ReviewType
 }
 
-function ReviewCard({ review: { imgSrc, name, role, star, said } }: ReviewCardType) {
+function ReviewCard({
+  review: { imgSrc, name, role, star, said },
+}: ReviewCardType) {
   return (
     <div className='flex flex-col justify-start items-start gap-5'>
       <div className='grid grid-cols-3 place-items-stretch gap-10'>
