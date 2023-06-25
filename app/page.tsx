@@ -9,7 +9,6 @@ import CraftCard from './components/craft-card'
 import PastWorks from './lib/past-works'
 import TitleBox from './components/title-box'
 import HowCard from './components/how-card'
-import {useMemo} from 'react'
 
 export default function Home() {
   return (
