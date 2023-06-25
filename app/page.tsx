@@ -9,6 +9,7 @@ import CraftCard from './components/craft-card'
 import PastWorks from './lib/past-works'
 import TitleBox from './components/title-box'
 import HowCard from './components/how-card'
+import {useMemo} from 'react'
 
 type ReviewType = {
   name: string
@@ -19,6 +20,17 @@ type ReviewType = {
 
 export default function Home() {
   const reviews: ReviewType[] = [{name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}, {name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}, {name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}, {name: 'Armani Kay', role: 'Project Manager', star: 4, said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design'}]
+  const pairedReviews: ReviewType[][] = useMemo(() => {
+    const list: ReviewType[][] = []
+    for(let i = 0; i < reviews.length - 1; i+=2) {
+      const _list: ReviewType[] = []
+      for(let j = i; j <= i+2; j++) {
+        _list.push(reviews[j])
+      }
+      list.push(_list)
+    }
+    return list
+  }, [])
 
   return (
     <main>
