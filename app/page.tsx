@@ -282,9 +282,8 @@ export default function Home() {
                 experience.
               </TitleBox>
               <div className='relative flex overflow-hidden h-[10rem]'>
-          <div className='flex-shrink-0 w-full' />
-          <div className='flex-shrink-0 w-full'>
-          </div>
+                <div className='flex-shrink-0 w-full' />
+                <div className='flex-shrink-0 w-full'></div>
               </div>
             </div>
           </div>
