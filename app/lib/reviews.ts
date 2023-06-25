@@ -1,4 +1,4 @@
-type ReviewType = {
+export type ReviewType = {
   name: string
   role: string 
   star: number
