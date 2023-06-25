@@ -305,9 +305,6 @@ export default function Home() {
               <div className='relative flex overflow-hidden h-[10rem]'>
           <div className='flex-shrink-0 w-full' />
           <div className='flex-shrink-0 w-full'>
-                [[1, 2], [3, 4], [5, 6]].map((review) => {
-                  
-                })
           </div>
               </div>
             </div>
