@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import { ReviewType } from '../lib/reviews'
+import ReviewCard from './review-card'
 
 type ReviewNodeType = {
   reviews: ReviewType[]
@@ -23,7 +24,7 @@ function Review({ reviews }: ReviewNodeType) {
 
   return (
     <>
-      {pairedReviews.map((pair, id, list) => {
+      {pairedReviews.map(([pair1, pair2]: ReviewType[], id, list) => {
         const [ENDPOINT, MAIN, STARTPOINT] = [
           'right-[110%]',
           'right-[50%]',
@@ -61,7 +62,8 @@ function Review({ reviews }: ReviewNodeType) {
               hide ? 'hidden' : 'block'
             } absolute inset-y-0 my-auto w-full transform duration-1000`}
           >
-            
+            <ReviewCard review={pair1} />
+            <ReviewCard review={pair2} />
           </div>
         )
       })}
