@@ -268,6 +268,8 @@ export default function Home() {
           </div>
         </section>
         {/**End of get yours */}
+        <section></section>
+        {/**End of feedback */}
         <footer></footer>
       </div>
     </main>
