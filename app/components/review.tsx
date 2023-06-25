@@ -56,9 +56,11 @@ function Review({ reviews }: ReviewNodeType) {
         }
 
         return (
-          <div className={`grid grid-cols-2 place-items-stretch ${
-            hide ? 'hidden' : 'block'
-          } absolute inset-y-0 my-auto w-full transform duration-1000`}>
+          <div
+            className={`grid grid-cols-2 place-items-stretch ${
+              hide ? 'hidden' : 'block'
+            } absolute inset-y-0 my-auto w-full transform duration-1000`}
+          >
             <div />
             <div />
           </div>
