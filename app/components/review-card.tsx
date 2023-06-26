@@ -14,7 +14,7 @@ function ReviewCard({
   return (
     <div className='flex flex-col justify-start items-start gap-5 h-fit my-auto p-5'>
       <div className='grid grid-cols-3 place-items-stretch gap-10'>
-        <div className='col-span-2 grid grid-cols-2 place-items-stretch'>
+        <div className='col-span-2 grid grid-cols-2 gap-5 place-items-stretch'>
           <Image
             src={imgSrc}
             width={150}
