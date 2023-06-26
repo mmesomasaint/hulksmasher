@@ -8,6 +8,8 @@ import CraftCard from './components/craft-card'
 import PastWorks from './lib/past-works'
 import TitleBox from './components/title-box'
 import HowCard from './components/how-card'
+import Review from './components/review'
+import Reviews from './lib/reviews'
 
 export default function Home() {
   return (
@@ -282,7 +284,9 @@ export default function Home() {
               </TitleBox>
               <div className='relative flex overflow-hidden h-[10rem]'>
                 <div className='flex-shrink-0 w-full' />
-                <div className='flex-shrink-0 w-full'></div>
+                <div className='flex-shrink-0 w-full'>
+                  <Review reviews={Reviews} />
+                </div>
               </div>
             </div>
           </div>
