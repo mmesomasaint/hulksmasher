@@ -45,7 +45,7 @@ function ReviewCard({
           </div>
         </div>
         <div>
-          <FaQuoteRight className='text-8xl text-red-500/40' />
+          <FaQuoteRight className='text-9xl text-red-500/40' />
         </div>
       </div>
       <span className='text-black text-sm sm:text-base font-normal leading-tight'>
