@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useCallback } from 'react'
 import { ReviewType } from '../lib/reviews'
 import ReviewCard from './review-card'
 
@@ -11,6 +11,8 @@ type ReviewNodeType = {
 function Review({ reviews }: ReviewNodeType) {
   const [activePair, setActivePair] = useState<number>(0)
   const MID_ID = reviews.length / 2 - 1
+
+  const pairHandler: (activeID: number) => void = useCallback((activeID: number) => setActivePair(activeID), [])
 
   const pairedReviews: ReviewType[][] = useMemo(() => {
     const list: ReviewType[][] = []
@@ -82,6 +84,7 @@ function Review({ reviews }: ReviewNodeType) {
             className={`w-12 h-2 ${
               activePair === id ? 'bg-red-500' : 'bg-red-500/40'
             } rounded-2xl`}
+            onClick={(e) => pairHandler(id)}
           />
         ))}
       </div>
