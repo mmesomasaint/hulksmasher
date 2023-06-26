@@ -22,7 +22,7 @@ function ReviewCard({
             alt="Review author's avatar"
             className='rounded-full'
           />
-          <div className='flex flex-col justify-start items-start gap-5'>
+          <div className='flex flex-col justify-center items-start gap-5'>
             <p className='text-sm sm:text-base font-medium text-black leading-none'>
               {name}
             </p>
