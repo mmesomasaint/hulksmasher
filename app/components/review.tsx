@@ -39,9 +39,9 @@ function Review({ reviews }: ReviewNodeType) {
     <>
       {pairedReviews.map(([pair1, pair2]: ReviewType[], id, list) => {
         const [ENDPOINT, MAIN, STARTPOINT] = [
-          'right-[150%]',
-          'right-[50%]',
-          '-right-[50%]',
+          'right-[100%]',
+          'right-[0%]',
+          '-right-[100%]',
         ]
 
         const PREV: number = activePair === 0 ? list.length - 1 : activePair - 1
@@ -73,7 +73,7 @@ function Review({ reviews }: ReviewNodeType) {
           <div
             className={`grid grid-cols-2 place-items-stretch ${
               hide ? 'hidden' : 'block'
-            } absolute inset-y-0 my-auto w-full transform duration-1000 -translate-x-[50%] ${style}`}
+            } absolute inset-y-0 my-auto w-full transform duration-1000 ${style}`}
           >
             <ReviewCard review={pair1} />
             <ReviewCard review={pair2} />
