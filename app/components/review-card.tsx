@@ -17,8 +17,8 @@ function ReviewCard({
         <div className='col-span-2 grid grid-cols-2 place-items-stretch'>
           <Image
             src={imgSrc}
-            width={200}
-            height={200}
+            width={150}
+            height={150}
             alt="Review author's avatar"
             className='rounded-full'
           />
