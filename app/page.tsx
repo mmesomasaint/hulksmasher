@@ -282,7 +282,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='relative flex overflow-hidden h-[19rem] w-full'>
+              <div className='relative flex overflow-hidden h-[20rem] w-full'>
                 <div className='flex-shrink-0 w-full' />
                 <div className='flex-shrink-0 w-full'>
                   <Review reviews={Reviews} />
