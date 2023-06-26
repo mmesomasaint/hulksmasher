@@ -34,7 +34,7 @@ function ReviewCard({
                 const Star = ({ StarIcon }: { StarIcon: IconType }) => {
                   return <StarIcon className='text-lg text-amber-500' />
                 }
-
+                
                 if (star >= key) return <Star key={key} StarIcon={BsStarFill} />
                 else if (star < key) return <Star key={key} StarIcon={BsStar} />
                 else return <Star key={key} StarIcon={BsStarHalf} />
