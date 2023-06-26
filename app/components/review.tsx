@@ -21,6 +21,9 @@ function Review({ reviews }: ReviewNodeType) {
       }
       list.push(_list)
     }
+
+    while (list.length < 3) list.push(...list)
+
     return list
   }, [])
 
