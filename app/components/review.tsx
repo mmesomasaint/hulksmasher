@@ -60,7 +60,7 @@ function Review({ reviews }: ReviewNodeType) {
           <div
             className={`grid grid-cols-2 place-items-stretch ${
               hide ? 'hidden' : 'block'
-            } absolute inset-y-0 my-auto w-full transform duration-1000`}
+            } absolute inset-y-0 my-auto w-full transform duration-1000 transition-[50%] ${style}`}
           >
             <ReviewCard review={pair1} />
             <ReviewCard review={pair2} />
