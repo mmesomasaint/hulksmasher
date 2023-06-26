@@ -12,7 +12,10 @@ function Review({ reviews }: ReviewNodeType) {
   const [activePair, setActivePair] = useState<number>(0)
   const MID_ID = reviews.length / 2 - 1
 
-  const pairHandler: (activeID: number) => void = useCallback((activeID: number) => setActivePair(activeID), [])
+  const pairHandler: (activeID: number) => void = useCallback(
+    (activeID: number) => setActivePair(activeID),
+    []
+  )
 
   const pairedReviews: ReviewType[][] = useMemo(() => {
     const list: ReviewType[][] = []
