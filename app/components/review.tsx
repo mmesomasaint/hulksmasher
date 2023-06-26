@@ -60,7 +60,7 @@ function Review({ reviews }: ReviewNodeType) {
 
         return (
           <div
-            className={`grid grid-cols-2 place-items-stretch ${
+            className={`grid grid-cols-2 place-items-stretch gap-10 ${
               hide ? 'hidden' : 'block'
             } absolute inset-y-0 my-auto w-full transform duration-1000 transition-[50%] ${style}`}
           >
