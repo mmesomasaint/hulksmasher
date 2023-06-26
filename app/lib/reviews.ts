@@ -30,7 +30,7 @@ const Reviews: ReviewType[] = [
   },
   {
     imgSrc: '/asset-tailors.jpg',
-    name: 'Pharm Kingsley Oti',
+    name: 'Pharm King Oti',
     role: 'Lecturer, Dept of Pharmacy',
     star: 4,
     said: 'Working with [company] has been a great success. They treat and loop you in through every process of the design',
