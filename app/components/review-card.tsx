@@ -23,10 +23,10 @@ function ReviewCard({
             className='rounded-full'
           />
           <div className='flex flex-col justify-center items-start gap-5'>
-            <p className='text-sm sm:text-base font-medium text-black leading-none'>
+            <p className='text-sm sm:text-base font-semibold text-red-500 leading-none'>
               {name}
             </p>
-            <p className='text-xs sm:text-sm font-medium text-black leading-none'>
+            <p className='text-xs sm:text-sm font-light text-black leading-none'>
               {role}
             </p>
             <div className='flex justify-start items-center gap-1'>
@@ -46,7 +46,7 @@ function ReviewCard({
           <FaQuoteRight className='text-8xl text-red-500/40' />
         </div>
       </div>
-      <span className='text-black text-sm sm:text-base font-medium leading-tight'>
+      <span className='text-black text-sm sm:text-base font-normal leading-tight'>
         {said}
       </span>
     </div>
