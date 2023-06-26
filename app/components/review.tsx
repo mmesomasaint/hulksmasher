@@ -14,6 +14,8 @@ function Review({ reviews }: ReviewNodeType) {
 
   const pairedReviews: ReviewType[][] = useMemo(() => {
     const list: ReviewType[][] = []
+
+    // Group the reviews in two's.
     for (let i = 0; i < reviews.length - 1; i += 2) {
       const _list: ReviewType[] = []
       for (let j = i; j <= i + 2; j++) {
@@ -22,6 +24,7 @@ function Review({ reviews }: ReviewNodeType) {
       list.push(_list)
     }
 
+    // Duplicate the list if size is less than 3.
     while (list.length < 3) list.push(...list)
 
     return list
