@@ -70,3 +70,5 @@ function Review({ reviews }: ReviewNodeType) {
     </>
   )
 }
+
+export default Review
