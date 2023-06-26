@@ -85,7 +85,9 @@ function Review({ reviews }: ReviewNodeType) {
           <div
             key={pair[0].name}
             className={`w-12 h-2 border ${
-              activePair === id ? 'bg-red-500 border-red-500' : 'border-red-500/40'
+              activePair === id
+                ? 'bg-red-500 border-red-500'
+                : 'border-red-500/40'
             } rounded-2xl`}
             onClick={(e) => pairHandler(id)}
           />
