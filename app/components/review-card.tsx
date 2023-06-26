@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { ReviewType } from '../lib/reviews'
 import { BsStarFill, BsStarHalf, BsStar } from 'react-icons/bs'
 import { FaQuoteRight } from 'react-icons/fa'
+import { ImQuotesRight } from 'react-icons/im'
 import { IconType } from 'react-icons/lib'
 
 type ReviewCardType = {
@@ -45,7 +46,7 @@ function ReviewCard({
           </div>
         </div>
         <div>
-          <FaQuoteRight className='text-9xl text-red-500/40' />
+          <ImQuotesRight className='text-9xl text-red-500/20 -scale-y-100' />
         </div>
       </div>
       <span className='text-black text-sm sm:text-base font-normal leading-tight'>
