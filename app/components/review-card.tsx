@@ -35,7 +35,7 @@ function ReviewCard({
                   return <StarIcon className='text-lg text-amber-500' />
                 }
 
-                if (star > key) return <Star key={key} StarIcon={BsStarFill} />
+                if (star >= key) return <Star key={key} StarIcon={BsStarFill} />
                 else if (star < key) return <Star key={key} StarIcon={BsStar} />
                 else return <Star key={key} StarIcon={BsStarHalf} />
               })}
