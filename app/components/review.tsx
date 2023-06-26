@@ -75,6 +75,13 @@ function Review({ reviews }: ReviewNodeType) {
           </div>
         )
       })}
+      <div className='absolute -right-[50%] -translate-x-[50%] bottom-0 w-full flex justify-center items-center gap-3'>
+              {
+                pairedReviews.map((pair, id) => (
+                  <div key={pair[0].name} className={`w-12 h-2 ${activePair === id ? 'bg-red-500' : 'bg-red-500/40'} rounded-2xl`} />
+                ))
+              }
+            </div>
     </>
   )
 }
