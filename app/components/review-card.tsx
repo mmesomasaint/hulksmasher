@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { ReviewType } from '../lib/reviews'
 import { BsStarFill, BsStarHalf, BsStar } from 'react-icons/bs'
-import { FaQuoteRight } from 'react-icons/fa'
 import { ImQuotesRight } from 'react-icons/im'
 import { IconType } from 'react-icons/lib'
 
