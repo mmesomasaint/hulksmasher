@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useMemo } from 'react'
 import { ReviewType } from '../lib/reviews'
 import ReviewCard from './review-card'
