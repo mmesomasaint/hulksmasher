@@ -23,12 +23,14 @@ function ReviewCard({
             className='rounded-full'
           />
           <div className='flex flex-col justify-center items-start gap-5'>
+            <div className='flex flex-col justify-start items-center'>
             <p className='text-sm sm:text-base font-semibold text-red-500 leading-none'>
               {name}
             </p>
             <p className='text-xs sm:text-sm font-light text-black leading-none'>
               {role}
             </p>
+            </div>
             <div className='flex justify-start items-center gap-1'>
               {[1, 2, 3, 4, 5].map((key) => {
                 const Star = ({ StarIcon }: { StarIcon: IconType }) => {
