@@ -28,9 +28,9 @@ function Review({ reviews }: ReviewNodeType) {
     <>
       {pairedReviews.map(([pair1, pair2]: ReviewType[], id, list) => {
         const [ENDPOINT, MAIN, STARTPOINT] = [
-          'right-[110%]',
+          'right-[150%]',
           'right-[50%]',
-          '-right-[10%]',
+          '-right-[50%]',
         ]
 
         const PREV: number = activePair === 0 ? list.length - 1 : activePair - 1
