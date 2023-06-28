@@ -85,11 +85,11 @@ function Review({ reviews }: ReviewNodeType) {
         {pairedReviews.map((pair, id) => (
           <button
             key={`${pair[0].name}-${pair[1].name}`}
-            className={`w-12 h-2 border ${
+            className={`border ${
               activePair === id
-                ? 'bg-red-500 border-red-500'
-                : 'border-red-500/40'
-            } rounded-2xl transform duration-1000`}
+                ? 'bg-red-500 border-red-500 w-4 h-4'
+                : 'border-red-500/40 w-[0.5rem] h-[0.5rem]'
+            } rounded-full transform duration-1000`}
             onClick={() => pairHandler(id)}
           />
         ))}
