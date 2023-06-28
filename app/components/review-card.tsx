@@ -33,10 +33,6 @@ function ReviewCard({
             </div>
             <div className='flex justify-start items-center gap-1'>
               {[1, 2, 3, 4, 5].map((key) => {
-                const Star = ({ StarIcon }: { StarIcon: IconType }) => {
-                  return <StarIcon className='text-lg text-amber-500' />
-                }
-
                 if (star >= key) return <Star key={key} StarIcon={BsStarFill} />
                 else if (star < key) return <Star key={key} StarIcon={BsStar} />
                 else return <Star key={key} StarIcon={BsStarHalf} />
@@ -53,6 +49,10 @@ function ReviewCard({
       </span>
     </div>
   )
+}
+
+function Star({ StarIcon }: { StarIcon: IconType }) {
+  return <StarIcon className='text-lg text-amber-500' />
 }
 
 export default ReviewCard
