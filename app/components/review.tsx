@@ -90,7 +90,6 @@ function Review({ reviews }: ReviewNodeType) {
                 ? 'bg-red-500 border-red-500 w-4 h-4'
                 : 'border-red-500/40 w-[0.5rem] h-[0.5rem]'
             } rounded-full transform duration-1000`}
-            onClick={() => pairHandler(id)}
           />
         ))}
       </div>
