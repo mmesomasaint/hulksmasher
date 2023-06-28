@@ -3,7 +3,7 @@
 import { useState, useMemo, useCallback } from 'react'
 import { ReviewType } from '../lib/reviews'
 import ReviewCard from './review-card'
-import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
+import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md'
 
 type ReviewNodeType = {
   reviews: ReviewType[]
@@ -109,13 +109,13 @@ function Review({ reviews }: ReviewNodeType) {
           className='flex justify-center items-center w-12 h-12 rounded-full bg-amber-500 transform duration-100 active:scale-[1.10]'
           onClick={movePairLeft}
         >
-          <BsArrowLeft className='text-lg text-white' />
+          <MdOutlineArrowBackIos className='text-lg text-white' />
         </button>
         <button
           className='flex justify-center items-center w-12 h-12 rounded-full bg-amber-500 transform duration-100 active:scale-[1.10]'
           onClick={movePairRight}
         >
-          <BsArrowRight className='text-lg text-white' />
+          <MdOutlineArrowForwardIos className='text-lg text-white' />
         </button>
       </div>
     </>
