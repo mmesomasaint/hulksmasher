@@ -3,6 +3,7 @@
 import { useState, useMemo, useCallback } from 'react'
 import { ReviewType } from '../lib/reviews'
 import ReviewCard from './review-card'
+import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 
 type ReviewNodeType = {
   reviews: ReviewType[]
@@ -16,6 +17,9 @@ function Review({ reviews }: ReviewNodeType) {
     (activeID: number) => setActivePair(activeID),
     []
   )
+
+  const movePairLeft: () => void = useCallback(() => setActivePair(prev => prev === 0 ? pairedReviews.length - 1 : prev - 1), [])
+  const movePairRight: () => void = useCallback(() => setActivePair(prev => prev === pairedReviews.length - 1 ? 0 : prev + 1), [])
 
   const pairedReviews: ReviewType[][] = useMemo(() => {
     const list: ReviewType[][] = []
@@ -92,6 +96,14 @@ function Review({ reviews }: ReviewNodeType) {
             } rounded-full transform duration-1000`}
           />
         ))}
+      </div>
+      <div className='absolute -inset-x-0 top-1/2 -translate-y-[50%] z-30 w-full bg-transparent flex justify-between items-center gap-20'>
+        <button className='flex justify-center items-center w-12 h-12 rounded-full bg-amber-500 transform duration-100 active:scale-[1.10]' onClick={movePairLeft}>
+          <BsArrowLeft className='text-lg text-white' />
+        </button>
+        <button className='flex justify-center items-center w-12 h-12 rounded-full bg-amber-500 transform duration-100 active:scale-[1.10]' onClick={movePairRight}>
+          <BsArrowRight className='text-lg text-white' />
+        </button>
       </div>
     </>
   )
