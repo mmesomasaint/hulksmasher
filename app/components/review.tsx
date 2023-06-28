@@ -104,7 +104,7 @@ function Review({ reviews }: ReviewNodeType) {
           />
         ))}
       </div>
-      <div className='absolute -inset-x-0 top-1/2 -translate-y-[50%] z-30 w-full bg-transparent flex justify-between items-center gap-20'>
+      <div className='absolute -inset-x-0 top-1/2 -translate-y-[50%] z-30 px-2 w-full bg-transparent flex justify-between items-center gap-20'>
         <button
           className='flex justify-center items-center w-12 h-12 rounded-full bg-amber-500 transform duration-100 active:scale-[1.10]'
           onClick={movePairLeft}
