@@ -71,7 +71,7 @@ function Review({ reviews }: ReviewNodeType) {
 
         return (
           <div
-            key={pair1.name}
+            key={`${pair1.name}-${pair2.name}`}
             className={`grid grid-cols-2 place-items-stretch ${
               hide ? 'hidden' : 'block'
             } absolute inset-y-0 my-auto w-full transform duration-1000 ${style}`}
