@@ -89,7 +89,7 @@ function Review({ reviews }: ReviewNodeType) {
               activePair === id
                 ? 'bg-red-500 border-red-500'
                 : 'border-red-500/40'
-            } rounded-2xl`}
+            } rounded-2xl transform duration-1000`}
             onClick={(e) => pairHandler(id)}
           />
         ))}
