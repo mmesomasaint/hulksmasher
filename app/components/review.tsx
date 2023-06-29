@@ -13,21 +13,6 @@ function Review({ reviews }: ReviewNodeType) {
   const [activePair, setActivePair] = useState<number>(0)
   const MID_ID = reviews.length / 2 - 1
 
-  const movePairLeft: () => void = useCallback(
-    () =>
-      setActivePair((prev) =>
-        prev === 0 ? pairedReviews.length - 1 : prev - 1
-      ),
-    []
-  )
-  const movePairRight: () => void = useCallback(
-    () =>
-      setActivePair((prev) =>
-        prev === pairedReviews.length - 1 ? 0 : prev + 1
-      ),
-    []
-  )
-
   const pairedReviews: ReviewType[][] = useMemo(() => {
     const list: ReviewType[][] = []
 
@@ -45,6 +30,22 @@ function Review({ reviews }: ReviewNodeType) {
 
     return list
   }, [])
+
+  const movePairLeft: () => void = useCallback(
+    () =>
+      setActivePair((prev) =>
+        prev === 0 ? pairedReviews.length - 1 : prev - 1
+      ),
+    []
+  )
+  
+  const movePairRight: () => void = useCallback(
+    () =>
+      setActivePair((prev) =>
+        prev === pairedReviews.length - 1 ? 0 : prev + 1
+      ),
+    []
+  )
 
   return (
     <>
