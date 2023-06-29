@@ -15,7 +15,6 @@ function CraftCard({src, title, occasion}: CraftCardType) {
         <span className='text-sm font-light text-black leading-none'><span className='text-black font-semibold'>Title:</span>&nbsp;{title}</span>
       </div>
     </div>
-
   )
 }
 
