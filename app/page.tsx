@@ -280,7 +280,17 @@ export default function Home() {
         {/**End of feedback */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'></div>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
+              <TitleBox
+                intro='We Can Start Now'
+                main='You Are Only 1 Contact Away From Your Dream'
+                pos='CENTER'
+              >
+                We take pride in our work and the satisfaction of our clients.
+                For every type of cloth and material we turn them into the best
+                experience.
+              </TitleBox>
+              </div>
           </div>
         </section>
         {/**End of contact */}
