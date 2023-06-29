@@ -11,7 +11,7 @@ type ServiceType = {
 const services: ServiceType[] = [
   { id: 1, name: 'Build Shoe' },
   { id: 2, name: 'Build Cloth' },
-  { id: 3, name: 'Dress Me Up' }
+  { id: 3, name: 'Dress Me Up' },
   { id: 3, name: 'Opinion/Advice' }
 ]
 
@@ -19,7 +19,7 @@ function Contact() {
   const [selectedService, setSelectedService] = useState<ServiceType>(
     services[0]
   )
-  
+
   return (
     <div className='relative px-5 xs:px-16 md:px-20 xl:px-40 pt-80 xs:pt-44 lg:pt-40 py-10 bg-white-cloud dark:bg-dim-gray w-full'>
 <div className='absolute w-fit inset-x-0 mx-auto z-10 -top-60 md:-top-24 p-5 xs:p-10 rounded-md shadow-xl bg-white dark:bg-dimer-gray'>
