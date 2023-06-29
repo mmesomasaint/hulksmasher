@@ -239,7 +239,7 @@ export default function Home() {
               <div className='flex flex-col justify-start items-start gap-5'>
                 <TitleBox
                   intro='Take The 1st Step'
-                  main='Got A Design/Description Ready?'
+                  main='Got A Design or Pattern Ready?'
                   pos='LEFT'
                 >
                   We take pride in our work and the satisfaction of our clients.
