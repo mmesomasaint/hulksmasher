@@ -103,20 +103,6 @@ export default function Home() {
         {/**End of showcase */}
         <section className=' bg-zinc-100 relative h-fit overflow-hidden'>
           <div className='max-w-[90rem] mx-auto relative h-fit'>
-            <Image
-              src='/pattern.png'
-              width={500}
-              height={500}
-              alt='pattern'
-              className='hidden lg:block absolute -left-[15%] transform rotate-45 origin-top-left grayscale'
-            />
-            <Image
-              src='/pattern.png'
-              width={500}
-              height={500}
-              alt='pattern'
-              className='hidden lg:block absolute -right-[15%] transform -rotate-45 origin-top-right grayscale'
-            />
             <div className='w-full h-fit'>
               <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-wrap justify-between items-center gap-6 py-20'>
                 <div className='w-full h-fit grid grid-cols-1 md:grid-cols-2 place-content-stretch gap-7 px-7'>
