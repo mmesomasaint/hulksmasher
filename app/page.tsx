@@ -290,7 +290,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              </div>
+            </div>
           </div>
         </section>
         {/**End of contact */}
