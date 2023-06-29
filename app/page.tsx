@@ -279,7 +279,7 @@ export default function Home() {
         </section>
         {/**End of feedback */}
         <section className='bg-zinc-100'>
-
+          <div className='max-w-[90rem] mx-auto'></div>
         </section>
         {/**End of contact */}
         <footer></footer>
