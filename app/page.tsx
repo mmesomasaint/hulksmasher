@@ -10,6 +10,7 @@ import TitleBox from './components/title-box'
 import HowCard from './components/how-card'
 import Review from './components/review'
 import Reviews from './lib/reviews'
+import Contact from './components/contact'
 
 export default function Home() {
   return (
@@ -290,6 +291,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
+              <Contact />
             </div>
           </div>
         </section>
