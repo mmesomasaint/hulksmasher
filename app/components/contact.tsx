@@ -29,7 +29,7 @@ function Contact() {
 
   return (
     <div className='relative px-5 xs:px-16 md:px-20 xl:px-40 pt-80 xs:pt-44 lg:pt-96 py-10 bg-zinc-100 w-full'>
-      <div className='absolute w-fit inset-x-0 mx-auto z-10 -top-60 md:top-20 p-5 xs:p-10 rounded-md shadow-xl bg-zinc-100'>
+      <div className='absolute w-fit inset-x-0 mx-auto z-10 -top-60 md:top-20 p-5 xs:p-10 rounded-md bg-amber-500/10 shadow-[0_0_20px_-6px_rgb(239_68_68_/_0.55)]'>
         <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-5 xs:gap-10'>
           <div className='w-full md:w-fit flex flex-col xs:flex-row md:flex-col items-center justify-start gap-3'>
             <div className='w-16 h-16 flex flex-shrink-0 justify-center items-center bg-amber-500 rounded-full'>
