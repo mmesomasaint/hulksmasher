@@ -163,12 +163,12 @@ function Contact() {
             className='w-full placeholder:text-black placeholder:opacity-70 text-base font-normal leading-none p-8 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
           />
           <div className='flex justify-center items-center w-full'>
-          <Button>
-            <span className='flex justify-center items-center gap-2'>
-              <p>SEND MESSAGE</p>
-              <BsArrowRight className='text-white text-xl' />
-            </span>
-          </Button>
+            <Button>
+              <span className='flex justify-center items-center gap-2'>
+                <p>SEND MESSAGE</p>
+                <BsArrowRight className='text-white text-xl' />
+              </span>
+            </Button>
           </div>
         </div>
       </div>
