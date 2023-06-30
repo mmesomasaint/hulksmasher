@@ -38,7 +38,7 @@ function Review({ reviews }: ReviewNodeType) {
       ),
     []
   )
-  
+
   const movePairRight: () => void = useCallback(
     () =>
       setActivePair((prev) =>
