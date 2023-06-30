@@ -26,6 +26,31 @@ const PastWorks: PastWorkType[] = [
     occasion: 'Senate Visit',
     title: 'Member',
   },
+  {
+    src: '/marriage-man-woman.jpg',
+    occasion: 'Traditional',
+    title: 'Couple',
+  },
+  {
+    src: '/portrait-beautiful-woman-posing-outdoors.jpg',
+    occasion: 'Photo Shoot',
+    title: 'Beau',
+  },
+  {
+    src: '/man-wearing-african-traditional.jpg',
+    occasion: 'Senate Visit',
+    title: 'Member',
+  },
+  {
+    src: '/marriage-woman.jpg',
+    occasion: 'Traditional',
+    title: 'Bride',
+  },
+  {
+    src: '/side-view-woman-wearing-native-attire.jpg',
+    occasion: 'Native',
+    title: 'Member',
+  },
 ]
 
 export default PastWorks
