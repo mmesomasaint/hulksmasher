@@ -41,7 +41,7 @@ function ReviewCard({
           </div>
         </div>
         <div>
-          <ImQuotesRight className='text-9xl text-red-500/20 -scale-y-100' />
+          <ImQuotesRight className='text-8xl lg:text-9xl text-red-500/20 -scale-y-100' />
         </div>
       </div>
       <span className='text-black text-sm sm:text-base font-normal leading-tight'>
