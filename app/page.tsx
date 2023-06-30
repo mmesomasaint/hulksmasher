@@ -292,7 +292,7 @@ export default function Home() {
           <div className='max-w-[90rem] mx-auto'>
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-10 sm:py-20'>
               <TitleBox
-                intro='Let&apos;s Start Now'
+                intro="Let's Start Now"
                 main='You Are Just 1 Click Away'
                 pos='CENTER'
               >
