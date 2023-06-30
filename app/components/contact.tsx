@@ -164,8 +164,8 @@ function Contact() {
           />
           <Button>
             <span className='flex justify-center items-center gap-2'>
-            <p>SEND MESSAGE</p>
-            <BsArrowRight className='text-white text-xl' />
+              <p>SEND MESSAGE</p>
+              <BsArrowRight className='text-white text-xl' />
             </span>
           </Button>
         </div>
