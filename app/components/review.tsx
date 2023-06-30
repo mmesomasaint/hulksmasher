@@ -126,7 +126,7 @@ function ControlBtn({
 }) {
   return (
     <button
-      className='flex justify-center items-center w-12 h-12 rounded-full bg-amber-500 transform duration-100 active:scale-[1.10]'
+      className='flex justify-center items-center w-7 sm:w-12 h-7 sm:h-12 rounded-full bg-amber-500 transform duration-100 active:scale-[1.10]'
       onClick={handler}
     >
       {children}
