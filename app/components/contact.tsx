@@ -88,7 +88,7 @@ function Contact() {
         </div>
       </div>
       <div className=''>
-        <h2 className='text-5xl font-semibold leading-tight text-amber-500 text-center mb-10'>
+        <h2 className='text-3xl sm:text-4xl font-bold text-amber-500 leading-tight text-center mb-10'>
           Any Service You Need
         </h2>
         <div className='flex flex-col items-start justify-start gap-10'>
@@ -162,12 +162,14 @@ function Contact() {
             placeholder='Message'
             className='w-full placeholder:text-black placeholder:opacity-70 text-base font-normal leading-none p-8 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
           />
+          <div className='flex justify-center items-center w-full'>
           <Button>
             <span className='flex justify-center items-center gap-2'>
               <p>SEND MESSAGE</p>
               <BsArrowRight className='text-white text-xl' />
             </span>
           </Button>
+          </div>
         </div>
       </div>
     </div>
