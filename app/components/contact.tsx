@@ -28,7 +28,7 @@ function Contact() {
   )
 
   return (
-    <div className='relative px-5 xs:px-16 md:px-20 xl:px-40 pt-[30rem] md:pt-96 py-10 bg-zinc-100 w-full'>
+    <div className='relative px-5 xs:px-16 md:px-20 xl:px-40 pt-[35rem] xs:pt-[30rem] md:pt-96 py-10 bg-zinc-100 w-full'>
       <div className='absolute w-fit inset-x-0 mx-auto z-10 top-5 md:top-20 md:mx-[2%] lg:mx-auto p-5 xs:p-10 rounded-md bg-amber-500/10 shadow-[0_0_20px_-6px_rgb(239_68_68_/_0.55)]'>
         <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-5 xs:gap-10'>
           <div className='w-full md:w-fit flex flex-col xs:flex-row md:flex-col items-center justify-start gap-3'>
@@ -36,14 +36,14 @@ function Contact() {
               <MdOutlineLocationOn className='text-white dark:text-text-pink text-4xl' />
             </div>
             <div className='flex flex-col items-center xs:items-start md:items-center justify-start gap-3'>
-              <h4 className='text-black text-lg font-semibold leading-tight'>
+              <h4 className='text-black text-sm sm:text-base font-semibold leading-tight'>
                 ADDRESS
               </h4>
               <div className=''>
-                <p className='text-black text-lg font-normal leading-tight text-center xs:text-left md:text-center'>
+                <p className='text-black text-sm sm:text-base font-medium  leading-tight text-center xs:text-left md:text-center'>
                   Dept of Computer Sci, UNN
                 </p>
-                <p className='text-black text-lg font-normal leading-tight text-center xs:text-left md:text-center'>
+                <p className='text-black text-sm sm:text-base font-medium  leading-tight text-center xs:text-left md:text-center'>
                   Nsk, Enugu
                 </p>
               </div>
@@ -54,14 +54,14 @@ function Contact() {
               <MdOutlineEmail className='text-white dark:text-text-pink text-4xl' />
             </div>
             <div className='flex flex-col items-center xs:items-start md:items-center justify-start gap-3'>
-              <h4 className='text-black text-lg font-semibold leading-tight'>
+              <h4 className='text-black text-sm sm:text-base font-semibold leading-tight'>
                 EMAIL
               </h4>
               <div className=''>
-                <p className='text-black text-lg font-normal leading-tight text-center xs:text-left md:text-center'>
+                <p className='text-black text-sm sm:text-base font-medium  leading-tight text-center xs:text-left md:text-center'>
                   mmesomasaint@gmail.com
                 </p>
-                <p className='text-black text-lg font-normal leading-tight text-center xs:text-left md:text-center'>
+                <p className='text-black text-sm sm:text-base font-medium  leading-tight text-center xs:text-left md:text-center'>
                   www.github.com/mmesomasaint
                 </p>
               </div>
@@ -72,14 +72,14 @@ function Contact() {
               <BsTelephone className='text-white dark:text-text-pink text-4xl' />
             </div>
             <div className='flex flex-col items-center xs:items-start md:items-center justify-start gap-3'>
-              <h4 className='text-black text-lg font-semibold leading-tight'>
+              <h4 className='text-black text-sm sm:text-base font-semibold leading-tight'>
                 PHONE
               </h4>
               <div className=''>
-                <p className='text-black text-lg font-normal leading-tight text-center xs:text-left md:text-center'>
+                <p className='text-black text-sm sm:text-base font-medium  leading-tight text-center xs:text-left md:text-center'>
                   +(234)8157-832-809
                 </p>
-                <p className='text-black text-lg font-normal leading-tight text-center xs:text-left md:text-center'>
+                <p className='text-black text-sm sm:text-base font-medium  leading-tight text-center xs:text-left md:text-center'>
                   08157832809
                 </p>
               </div>
