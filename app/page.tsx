@@ -203,16 +203,16 @@ export default function Home() {
                 experience.
               </TitleBox>
               <div className='grid grid-cols-4 gap-10 place-items-stretch mt-10'>
-                <HowCard title='Request Service'>
+                <HowCard title='Request Service' icon='1'>
                   Contact us with design or description.
                 </HowCard>
-                <HowCard title='Get Measurements'>
+                <HowCard title='Get Measurements' icon='2'>
                   We come to you and take your measurements.
                 </HowCard>
-                <HowCard title='Build Process'>
+                <HowCard title='Build Process' icon='3'>
                   Your Design &amp; Desire is brought to life.
                 </HowCard>
-                <HowCard title='Delivery'>
+                <HowCard title='Delivery' icon='4'>
                   Get your package in time for the occasion.
                 </HowCard>
               </div>
