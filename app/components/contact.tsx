@@ -1,6 +1,10 @@
 import { Fragment, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
-import { MdOutlineEmail, MdOutlineLocationOn, MdKeyboardArrowDown } from 'react-icons/md'
+import {
+  MdOutlineEmail,
+  MdOutlineLocationOn,
+  MdKeyboardArrowDown,
+} from 'react-icons/md'
 import { BsCheckLg, BsTelephone, BsArrowRight } from 'react-icons/bs'
 import Button from './button'
 
@@ -13,7 +17,7 @@ const services: ServiceType[] = [
   { id: 1, name: 'Build Shoe' },
   { id: 2, name: 'Build Cloth' },
   { id: 3, name: 'Dress Me Up' },
-  { id: 3, name: 'Opinion/Advice' }
+  { id: 3, name: 'Opinion/Advice' },
 ]
 
 function Contact() {
