@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <main>
       <div className='min-h-screen'>
-        <header className='static sm:fixed sm:top-0 sm:inset-x-0 sm:z-50 w-full bg-zinc-100'>
+        <header className='fixed top-0 inset-x-0 z-50 w-full bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto w-full'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto py-4 flex flex-wrap justify-between items-center gap-6'>
-              <div className='px-[1%] flex-shrink-0 w-full sm:w-fit'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto py-4 flex flex-wrap justify-between items-center gap-0 sm:gap-6'>
+              <div className='px-[1%] shrink sm:flex-shrink-0 sm:w-fit'>
                 <Image src='/1-shoe.png' width={50} height={30} alt='logo' />
               </div>
               <div className='col-span-3 flex justify-between items-center gap-7'>
@@ -44,7 +44,7 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-              <div className='sticky top-0 z-50 flex justify-between sm:justify-end items-center w-full sm:w-fit gap-3 bg-zinc-100 px-[2%]'>
+              <div className='flex justify-between sm:justify-end items-center grow sm:w-fit gap-3 bg-zinc-100 px-[2%]'>
                 <div className='block lg:hidden'>
                   <ResponsiveNav />
                 </div>
