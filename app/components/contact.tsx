@@ -95,10 +95,10 @@ function Contact() {
           <Listbox value={selectedService} onChange={setSelectedService}>
             <div className='relative w-full sm:w-72'>
               <Listbox.Button className='flex justify-between items-center w-full gap-4 p-3 bg-white rounded-md'>
-                <p className='text-black text-xl font-normal leading-tight text-center'>
+                <p className='text-black text-sm sm:text-base font-semibold  leading-tight text-center'>
                   {selectedService.name}
                 </p>
-                <MdKeyboardArrowDown className='text-amber-500 text-3xl' />
+                <MdKeyboardArrowDown className='text-amber-500 text-xl sm:text-3xl' />
               </Listbox.Button>
               <Transition
                 as={Fragment}
@@ -121,10 +121,10 @@ function Contact() {
                               : 'bg-white text-black'
                           } ${
                             selected ? 'font-medium' : 'font-light'
-                          } flex justify-start items-center gap-2 p-3 rounded-md text-xl`}
+                          } flex justify-start items-center gap-2 p-3 rounded-md text-sm sm:text-base`}
                         >
                           {selected && (
-                            <BsCheckLg className='text-amber-300 text-3xl' />
+                            <BsCheckLg className='text-amber-500 text-xl sm:text-3xl' />
                           )}
                           {service.name}
                         </li>
@@ -139,28 +139,28 @@ function Contact() {
             <input
               type='text'
               placeholder='First Name'
-              className='placeholder:text-black placeholder:opacity-70 text-black text-base font-normal leading-none p-3 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
+              className='placeholder:text-black placeholder:opacity-70 text-black text-sm sm:text-base font-normal leading-none p-3 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
             />
             <input
               type='number'
               placeholder='Mobile Number'
-              className='placeholder:text-black placeholder:opacity-70 text-black text-base font-normal leading-none p-3 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
+              className='placeholder:text-black placeholder:opacity-70 text-black text-sm sm:text-base font-normal leading-none p-3 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
             />
             <input
               type='email'
               placeholder='Email Address'
-              className='placeholder:text-black placeholder:opacity-70 text-black text-base font-normal leading-none p-3 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
+              className='placeholder:text-black placeholder:opacity-70 text-black text-sm sm:text-base font-normal leading-none p-3 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
             />
           </div>
           <input
             type='text'
             placeholder='Subject'
-            className='w-full placeholder:text-black placeholder:opacity-70 text-base font-normal leading-none p-8 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
+            className='w-full placeholder:text-black placeholder:opacity-70 text-sm sm:text-base font-normal leading-none p-3 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
           />
           <textarea
             rows={7}
             placeholder='Message'
-            className='w-full placeholder:text-black placeholder:opacity-70 text-base font-normal leading-none p-8 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
+            className='w-full placeholder:text-black placeholder:opacity-70 text-sm sm:text-base font-normal leading-none p-3 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
           />
           <div className='flex justify-center items-center w-full'>
             <Button>
