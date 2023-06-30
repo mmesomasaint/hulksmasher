@@ -163,8 +163,10 @@ function Contact() {
             className='w-full placeholder:text-black placeholder:opacity-70 text-base font-normal leading-none p-8 rounded-md shadow-md bg-white focus:outline-none border border-transparent focus:border-amber-500'
           />
           <Button>
-            <span>SEND MESSAGE</span>
+            <span className='flex justify-center items-center gap-2'>
+            <p>SEND MESSAGE</p>
             <BsArrowRight className='text-white text-xl' />
+            </span>
           </Button>
         </div>
       </div>
