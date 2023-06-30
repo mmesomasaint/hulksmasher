@@ -40,7 +40,7 @@ function ReviewCard({
             </div>
           </div>
         </div>
-        <div className='absolute right-0 bottom-[15%] md:static'>
+        <div className='hidden sm:block absolute right-0 bottom-[15%] md:static'>
           <ImQuotesRight className='text-8xl lg:text-9xl text-red-500/20 -scale-y-100' />
         </div>
       </div>
