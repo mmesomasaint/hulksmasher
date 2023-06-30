@@ -88,7 +88,7 @@ function Contact() {
         </div>
       </div>
       <div className=''>
-        <h2 className='text-3xl sm:text-4xl font-bold text-amber-500 leading-tight text-center mb-10'>
+        <h2 className='text-3xl sm:text-4xl font-bold text-red-500 leading-tight text-center mb-10'>
           Any Service You Need
         </h2>
         <div className='flex flex-col items-start justify-start gap-10'>
