@@ -195,7 +195,7 @@ export default function Home() {
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
               <TitleBox
                 intro='How It Works'
-                main='Bring Your Desire To Reality With Just 3 Steps'
+                main='Bring Your Desire To Reality With Just 4 Steps'
                 pos='CENTER'
               >
                 We take pride in our work and the satisfaction of our clients.
