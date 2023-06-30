@@ -17,12 +17,13 @@ function CraftCard({ src, title, occasion }: CraftCardType) {
         className='flex-grow rounded-t-2xl'
       />
       <div className='flex flex-col gap-2 justify-start items-start p-3'>
-        <span className='text-sm font-light text-black leading-none'>
-          <span className='text-black font-semibold'>Occasion:</span>&nbsp;
-          {occasion}
+        <span className='flex flex-col items-start justify-start'>
+          <span className='text-black font-semibold leading-none'>Occasion:</span>&nbsp;
+            <p className='text-black text-xs sm:text-sm font-normal leading-snug'>{occasion}</p>
         </span>
-        <span className='text-sm font-light text-black leading-none'>
-          <span className='text-black font-semibold'>Title:</span>&nbsp;{title}
+        <span className='flex flex-col items-start justify-start'>
+          <span className='text-black font-semibold leading-none'>Title:</span>&nbsp;
+            <p className='text-black text-xs sm:text-sm font-normal leading-snug'>{title}</p>
         </span>
       </div>
     </div>
