@@ -19,7 +19,7 @@ const services: ServiceType[] = [
   { id: 1, name: 'Build Shoe' },
   { id: 2, name: 'Build Cloth' },
   { id: 3, name: 'Dress Me Up' },
-  { id: 3, name: 'Opinion/Advice' },
+  { id: 4, name: 'Opinion/Advice' },
 ]
 
 function Contact() {
