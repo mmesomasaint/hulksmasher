@@ -105,7 +105,7 @@ export default function Home() {
         <section className=' bg-zinc-100 relative h-fit overflow-hidden'>
           <div className='max-w-[90rem] mx-auto relative h-fit'>
             <div className='w-full h-fit'>
-              <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-wrap justify-between items-center gap-6 py-20'>
+              <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-wrap justify-between items-center gap-6 py-10 sm:py-20'>
                 <div className='w-full h-fit grid grid-cols-1 md:grid-cols-2 place-content-stretch gap-7 px-7'>
                   <div className='relative h-full px-[2%] sm:px-0'>
                     <Image
@@ -166,7 +166,7 @@ export default function Home() {
         {/**End of about */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-10 sm:py-20'>
               <TitleBox
                 intro='What We Have Done'
                 main='Our Crafts Are Custom-made To Fit Client &amp; Occasion'
@@ -176,7 +176,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='grid grid-cols-3 lg:grid-cols-5 place-items-stretch gap-5 mt-5 px-[2%] lg:px-0'>
+              <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 place-items-stretch gap-5 mt-5 px-[2%] lg:px-0'>
                 {PastWorks.map(({ src, occasion, title }) => (
                   <CraftCard
                     key={`${src} ${occasion} ${title}`}
@@ -192,7 +192,7 @@ export default function Home() {
         {/**End of portfolio */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-10 sm:py-20'>
               <TitleBox
                 intro='How It Works'
                 main='Bring Your Desire To Reality With Just 4 Steps'
@@ -222,7 +222,7 @@ export default function Home() {
         {/**End of how it works */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-2 md:grid-cols-3 place-items-stretch gap-5 xl:gap-32 py-20'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-2 md:grid-cols-3 place-items-stretch gap-5 xl:gap-32 py-10 sm:py-20'>
               <div className='flex flex-col justify-start items-start gap-5 px-[2%] lg:px-0'>
                 <TitleBox
                   intro='Take The 1st Step'
@@ -268,7 +268,7 @@ export default function Home() {
         {/**End of get yours */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-10 sm:py-20'>
               <TitleBox
                 intro='What They Are Saying'
                 main='Client Feedback On Our Work'
@@ -290,7 +290,7 @@ export default function Home() {
         {/**End of feedback */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-20'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto flex flex-col justify-start items-center gap-5 py-10 sm:py-20'>
               <TitleBox
                 intro='Let&apos;s Start Now'
                 main='You Are Just 1 Click Away'
