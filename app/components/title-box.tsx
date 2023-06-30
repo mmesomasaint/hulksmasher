@@ -11,8 +11,8 @@ function TitleBox({ intro, main, pos, children }: TitleBoxType) {
       className={`flex flex-col justify-start ${
         pos === 'LEFT' && 'items-start'
       } ${pos === 'RIGHT' && 'items-end'} ${
-        pos === 'CENTER' && 'items-center w-[50%] mx-auto text-center'
-      } gap-5`}
+        pos === 'CENTER' && 'items-center w-full md:w-[70%] lg:w-[50%] mx-auto text-center'
+      } gap-5 px-[2%] lg:px-0`}
     >
       <h3 className='text-sm sm:text-base font-medium text-black leading-none'>
         {intro}

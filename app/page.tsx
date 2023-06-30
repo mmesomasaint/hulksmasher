@@ -222,7 +222,7 @@ export default function Home() {
         {/**End of how it works */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-2 md:grid-cols-3 place-items-stretch gap-5 xl:gap-32 py-10 sm:py-20'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 place-items-stretch gap-5 xl:gap-32 py-10 sm:py-20'>
               <div className='flex flex-col justify-start items-start gap-5 px-[2%] lg:px-0'>
                 <TitleBox
                   intro='Take The 1st Step'
@@ -278,7 +278,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='relative flex overflow-hidden h-[20rem] w-full'>
+              <div className='relative flex overflow-hidden h-[30rem] sm:h-[20rem] w-full'>
                 <div className='flex-shrink-0 w-full' />
                 <div className='flex-shrink-0 w-full'>
                   <Review reviews={Reviews} />
