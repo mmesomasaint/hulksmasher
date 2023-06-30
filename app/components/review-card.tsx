@@ -12,7 +12,7 @@ function ReviewCard({
   review: { imgSrc, name, role, star, said },
 }: ReviewCardType) {
   return (
-    <div className='relative flex flex-col justify-start items-start gap-3 h-fit my-auto p-5 mx-3 xl:mx-10 bg-amber-500/10 shadow-[0_0_20px_-6px_rgb(239_68_68_/_0.55)] rounded-2xl'>
+    <div className='relative flex flex-col justify-start items-start gap-3 h-fit my-auto p-3 xs:p-5 mx-3 xl:mx-10 bg-amber-500/10 shadow-[0_0_20px_-6px_rgb(239_68_68_/_0.55)] rounded-2xl'>
       <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 items-start gap-5'>
         <div className='col-span-1 xs:col-span-2 grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-2 gap-1 place-items-stretch'>
           <Image
@@ -52,7 +52,7 @@ function ReviewCard({
 }
 
 function Star({ StarIcon }: { StarIcon: IconType }) {
-  return <StarIcon className='text-lg text-amber-500' />
+  return <StarIcon className='text-base xs:text-lg text-amber-500' />
 }
 
 export default ReviewCard
