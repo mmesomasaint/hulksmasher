@@ -176,7 +176,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 place-items-stretch gap-5 mt-5 px-[2%] lg:px-0'>
+              <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 place-items-stretch gap-2 xs:gap-5 mt-5 px-[2%] lg:px-0'>
                 {PastWorks.map(({ src, occasion, title }) => (
                   <CraftCard
                     key={`${src} ${occasion} ${title}`}
@@ -202,7 +202,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-10 place-items-stretch mt-10 px-[2%] lg:px-0'>
+              <div className='grid grid-cols-2 md:grid-cols-4 gap-2 xs:gap-5 lg:gap-10 place-items-stretch mt-10 px-[2%] lg:px-0'>
                 <HowCard title='Request Service' icon='1'>
                   Contact us with design or description.
                 </HowCard>
@@ -278,7 +278,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='relative flex overflow-hidden h-[30rem] sm:h-[20rem] w-full'>
+              <div className='relative flex overflow-hidden h-[25rem] sm:h-[20rem] w-full'>
                 <div className='flex-shrink-0 w-full' />
                 <div className='flex-shrink-0 w-full'>
                   <Review reviews={Reviews} />
