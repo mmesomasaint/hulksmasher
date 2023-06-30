@@ -176,7 +176,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 place-items-stretch gap-2 xs:gap-5 mt-5 px-[2%] lg:px-0'>
+              <div className='grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 place-items-stretch gap-5 mt-5 px-[2%] lg:px-0'>
                 {PastWorks.map(({ src, occasion, title }) => (
                   <CraftCard
                     key={`${src} ${occasion} ${title}`}
