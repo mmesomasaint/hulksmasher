@@ -83,7 +83,7 @@ function Review({ reviews }: ReviewNodeType) {
 
         return (
           <div
-            key={`${pair1.name}-${pair2.name}`}
+            key={`${pair1.name}-${pair2.name}-${id}`}
             className={`grid grid-cols-2 place-items-stretch ${
               hide ? 'hidden' : 'block'
             } absolute inset-y-0 my-auto w-full transform duration-1000 ${style}`}
@@ -96,7 +96,7 @@ function Review({ reviews }: ReviewNodeType) {
       <div className='absolute -right-[50%] -translate-x-[50%] bottom-0 w-full flex justify-center items-center gap-3'>
         {pairedReviews.map((pair, id) => (
           <button
-            key={`${pair[0].name}-${pair[1].name}`}
+            key={`${pair[0].name}-${pair[1].name}-${id}`}
             className={`border ${
               activePair === id
                 ? 'bg-red-500 border-red-500 w-4 h-4'
