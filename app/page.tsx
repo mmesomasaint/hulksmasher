@@ -176,7 +176,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='grid grid-cols-3 lg:grid-cols-5 place-items-stretch gap-5 mt-5'>
+              <div className='grid grid-cols-3 lg:grid-cols-5 place-items-stretch gap-5 mt-5 px-[2%] lg:px-0'>
                 {PastWorks.map(({ src, occasion, title }) => (
                   <CraftCard
                     key={`${src} ${occasion} ${title}`}
@@ -202,7 +202,7 @@ export default function Home() {
                 For every type of cloth and material we turn them into the best
                 experience.
               </TitleBox>
-              <div className='grid grid-cols-4 gap-5 lg:gap-10 place-items-stretch mt-10 px-[2%] lg:px-0'>
+              <div className='grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-10 place-items-stretch mt-10 px-[2%] lg:px-0'>
                 <HowCard title='Request Service' icon='1'>
                   Contact us with design or description.
                 </HowCard>
@@ -222,7 +222,7 @@ export default function Home() {
         {/**End of how it works */}
         <section className='bg-zinc-100'>
           <div className='max-w-[90rem] mx-auto'>
-            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch gap-5 lg:gap-32 py-20'>
+            <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-2 md:grid-cols-3 place-items-stretch gap-5 xl:gap-32 py-20'>
               <div className='flex flex-col justify-start items-start gap-5 px-[2%] lg:px-0'>
                 <TitleBox
                   intro='Take The 1st Step'
@@ -233,10 +233,19 @@ export default function Home() {
                 </TitleBox>
                 <Button>Request Service</Button>
               </div>
-              <div className='col-span-2 grid grid-cols-3 gap-2 items-center px-[2%] lg:px-0'>
-                <div className='col-span-2 relative'>
+              <div className='md:col-span-2 grid grid-cols-2 md:grid-cols-3 gap-2 items-center px-[2%] lg:px-0'>
+                <div className='hidden md:block'>
                   <Image
-                    src='/old-vintage-hand-sewing-machine.jpg'
+                    src='/side-view-woman-wearing-native-attire.jpg'
+                    width={550}
+                    height={200}
+                    alt='Old vintage hand sewing machine'
+                    className=''
+                  />
+                </div>
+                <div className=''>
+                  <Image
+                    src='/marriage-woman.jpg'
                     width={550}
                     height={200}
                     alt='Old vintage hand sewing machine'
