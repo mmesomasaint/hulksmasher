@@ -313,19 +313,19 @@ export default function Home() {
         {/**End of contact */}
         <footer className='bg-zinc-500'>
           <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch items-start gap-5 pt-10 sm:pt-20 pb-8'>
-            <div className='p-1 flex flex-col justify-start items-start gap-3'>
+            <div className='p-1 flex flex-col justify-start items-start gap-5'>
               <Image src='/1-shoe.png' width={50} height={30} alt='logo' />
               <span className='text-white text-sm sm:text-base font-medium leading-tight'>
                 We take pride in our work and the satisfaction of our clients.
                 For every type of cloth and material we turn them into the best
                 experience.
               </span>
-              <div className='flex justify-evenly items-center gap-1'>
-                <BsTelephone className='text-amber-500 text-xl sm:text-3xl' />
-                <BsWhatsapp className='text-amber-500 text-xl sm:text-3xl' />
-                <BsEnvelopeFill className='text-amber-500 text-xl sm:text-3xl' />
-                <BsFacebook className='text-amber-500 text-xl sm:text-3xl' />
-                <BsInstagram className='text-amber-500 text-xl sm:text-3xl' />
+              <div className='flex justify-evenly items-center gap-3'>
+                <BsTelephone className='text-amber-500 text-xl sm:text-2xl' />
+                <BsWhatsapp className='text-amber-500 text-xl sm:text-2xl' />
+                <BsEnvelopeFill className='text-amber-500 text-xl sm:text-2xl' />
+                <BsFacebook className='text-amber-500 text-xl sm:text-2xl' />
+                <BsInstagram className='text-amber-500 text-xl sm:text-2xl' />
               </div>
             </div>
             <div className='grid grid-cols-3 col-span-2 gap-3 place-items-stretch'></div>
