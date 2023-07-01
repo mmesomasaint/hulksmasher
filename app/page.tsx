@@ -313,7 +313,7 @@ export default function Home() {
         {/**End of contact */}
         <footer className='bg-zinc-500'>
           <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto pt-10 sm:pt-20 pb-5 px-[2%] lg:px-0'>
-            <div className='grid grid-cols-1 md:grid-cols-3 place-items-stretch items-start gap-16'>
+            <div className='grid grid-cols-1 md:grid-cols-3 place-items-stretch items-start gap-16 mb-8'>
               <div className='flex flex-col justify-start items-start gap-5'>
                 <Image src='/1-shoe.png' width={80} height={60} alt='logo' />
                 <span className='text-white text-sm sm:text-base font-medium leading-tight'>
@@ -329,7 +329,7 @@ export default function Home() {
                   <BsInstagram className='text-amber-500 text-xl sm:text-2xl' />
                 </div>
               </div>
-              <div className='p-3 grid grid-cols-1 xs:grid-cols-3 col-span-2 gap-10 place-items-stretch'>
+              <div className='p-0 md:p-3 grid grid-cols-1 xs:grid-cols-3 col-span-2 gap-10 place-items-stretch'>
                 <div className='flex flex-col gap-5 items-start justify-start'>
                   <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
                     QUICK LINKS
