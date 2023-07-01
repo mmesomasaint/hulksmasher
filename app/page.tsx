@@ -330,33 +330,65 @@ export default function Home() {
             </div>
             <div className='p-3 grid grid-cols-3 col-span-2 gap-3 place-items-stretch'>
               <div className='flex flex-col gap-5 items-start justify-start'>
-                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>QUICK LINKS</h3>
+                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
+                  QUICK LINKS
+                </h3>
                 <ul className='flex flex-col gap-3 items-start justify-start'>
                   <li className='text-gray-200 text-sm sm:text-base'>Home</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Portfolio</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Submit Pattern</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Contact Us</li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Portfolio
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Submit Pattern
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Contact Us
+                  </li>
                   <li className='text-gray-200 text-sm sm:text-base'>FAQs</li>
                 </ul>
               </div>
               <div className='flex flex-col gap-5 items-start justify-start'>
-                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>SERVICES</h3>
+                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
+                  SERVICES
+                </h3>
                 <ul className='flex flex-col gap-3 items-start justify-start'>
-                  <li className='text-gray-200 text-sm sm:text-base'>Start Design</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Designing & Patterning</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Submit Pattern</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Custume Management</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Bulk Production </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Graphics</li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Start Design
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Designing & Patterning
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Submit Pattern
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Custume Management
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Bulk Production{' '}
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Graphics
+                  </li>
                 </ul>
               </div>
               <div className='flex flex-col gap-5 items-start justify-start'>
-                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>QUICK LINKS</h3>
+                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
+                  QUICK LINKS
+                </h3>
                 <ul className='flex flex-col gap-3 items-start justify-start'>
-                  <li className='text-gray-200 text-sm sm:text-base'>Launch Complain</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Portfolio</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Dress Ups</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>Contact Us</li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Launch Complain
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Portfolio
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Dress Ups
+                  </li>
+                  <li className='text-gray-200 text-sm sm:text-base'>
+                    Contact Us
+                  </li>
                 </ul>
               </div>
             </div>
