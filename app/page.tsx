@@ -312,7 +312,7 @@ export default function Home() {
         </section>
         {/**End of contact */}
         <footer className='bg-zinc-500'>
-          <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-2 md:grid-cols-3 place-items-stretch items-start gap-16 pt-10 sm:pt-20 pb-8 px-[2%] lg:px-0'>
+          <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3 place-items-stretch items-start gap-16 pt-10 sm:pt-20 pb-8 px-[2%] lg:px-0'>
             <div className='flex flex-col justify-start items-start gap-5'>
               <Image src='/1-shoe.png' width={80} height={60} alt='logo' />
               <span className='text-white text-sm sm:text-base font-medium leading-tight'>
