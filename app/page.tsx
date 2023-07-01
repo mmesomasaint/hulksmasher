@@ -314,85 +314,85 @@ export default function Home() {
         <footer className='bg-zinc-500'>
           <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto pt-10 sm:pt-20 pb-8 px-[2%] lg:px-0'>
             <div className='grid grid-cols-1 md:grid-cols-3 place-items-stretch items-start gap-16'>
-            <div className='flex flex-col justify-start items-start gap-5'>
-              <Image src='/1-shoe.png' width={80} height={60} alt='logo' />
-              <span className='text-white text-sm sm:text-base font-medium leading-tight'>
-                We take pride in our work and the satisfaction of our clients.
-                For every type of cloth and material we turn them into the best
-                experience.
-              </span>
-              <div className='flex justify-evenly items-center gap-3'>
-                <BsTelephone className='text-amber-500 text-xl sm:text-2xl' />
-                <BsWhatsapp className='text-amber-500 text-xl sm:text-2xl' />
-                <BsEnvelopeFill className='text-amber-500 text-xl sm:text-2xl' />
-                <BsFacebook className='text-amber-500 text-xl sm:text-2xl' />
-                <BsInstagram className='text-amber-500 text-xl sm:text-2xl' />
+              <div className='flex flex-col justify-start items-start gap-5'>
+                <Image src='/1-shoe.png' width={80} height={60} alt='logo' />
+                <span className='text-white text-sm sm:text-base font-medium leading-tight'>
+                  We take pride in our work and the satisfaction of our clients.
+                  For every type of cloth and material we turn them into the
+                  best experience.
+                </span>
+                <div className='flex justify-evenly items-center gap-3'>
+                  <BsTelephone className='text-amber-500 text-xl sm:text-2xl' />
+                  <BsWhatsapp className='text-amber-500 text-xl sm:text-2xl' />
+                  <BsEnvelopeFill className='text-amber-500 text-xl sm:text-2xl' />
+                  <BsFacebook className='text-amber-500 text-xl sm:text-2xl' />
+                  <BsInstagram className='text-amber-500 text-xl sm:text-2xl' />
+                </div>
               </div>
-            </div>
-            <div className='p-3 grid grid-cols-1 xs:grid-cols-3 col-span-2 gap-10 place-items-stretch'>
-              <div className='flex flex-col gap-5 items-start justify-start'>
-                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
-                  QUICK LINKS
-                </h3>
-                <ul className='flex flex-col gap-3 items-start justify-start'>
-                  <li className='text-gray-200 text-sm sm:text-base'>Home</li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Portfolio
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Submit Pattern
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Contact Us
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>FAQs</li>
-                </ul>
+              <div className='p-3 grid grid-cols-1 xs:grid-cols-3 col-span-2 gap-10 place-items-stretch'>
+                <div className='flex flex-col gap-5 items-start justify-start'>
+                  <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
+                    QUICK LINKS
+                  </h3>
+                  <ul className='flex flex-col gap-3 items-start justify-start'>
+                    <li className='text-gray-200 text-sm sm:text-base'>Home</li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Portfolio
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Submit Pattern
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Contact Us
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>FAQs</li>
+                  </ul>
+                </div>
+                <div className='flex flex-col gap-5 items-start justify-start'>
+                  <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
+                    SERVICES
+                  </h3>
+                  <ul className='flex flex-col gap-3 items-start justify-start'>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Start Design
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Designing & Patterning
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Submit Pattern
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Custume Management
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Bulk Production{' '}
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Graphics
+                    </li>
+                  </ul>
+                </div>
+                <div className='flex flex-col gap-5 items-start justify-start'>
+                  <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
+                    QUICK LINKS
+                  </h3>
+                  <ul className='flex flex-col gap-3 items-start justify-start'>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Launch Complain
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Portfolio
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Dress Ups
+                    </li>
+                    <li className='text-gray-200 text-sm sm:text-base'>
+                      Contact Us
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div className='flex flex-col gap-5 items-start justify-start'>
-                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
-                  SERVICES
-                </h3>
-                <ul className='flex flex-col gap-3 items-start justify-start'>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Start Design
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Designing & Patterning
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Submit Pattern
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Custume Management
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Bulk Production{' '}
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Graphics
-                  </li>
-                </ul>
-              </div>
-              <div className='flex flex-col gap-5 items-start justify-start'>
-                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
-                  QUICK LINKS
-                </h3>
-                <ul className='flex flex-col gap-3 items-start justify-start'>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Launch Complain
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Portfolio
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Dress Ups
-                  </li>
-                  <li className='text-gray-200 text-sm sm:text-base'>
-                    Contact Us
-                  </li>
-                </ul>
-              </div>
-            </div>
             </div>
           </div>
         </footer>
