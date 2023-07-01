@@ -1,7 +1,7 @@
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsTelephone, BsWhatsapp, BsEnvelopeFill, BsFacebook } from 'react-icons/bs'
+import { BsTelephone, BsWhatsapp, BsEnvelopeFill, BsFacebook, BsInstagram } from 'react-icons/bs'
 import ResponsiveNav from './components/responsive-nav'
 import Button from './components/button'
 import CraftCard from './components/craft-card'
@@ -319,6 +319,7 @@ export default function Home() {
                   <BsWhatsapp className='text-amber-500 text-xl sm:text-3xl' />
                   <BsEnvelopeFill className='text-amber-500 text-xl sm:text-3xl' />
                   <BsFacebook className='text-amber-500 text-xl sm:text-3xl' />
+                  <BsInstagram className='text-amber-500 text-xl sm:text-3xl' />
                 </div>
               </div>
               <div className='grid grid-cols-3 col-span-2 gap-3 place-items-stretch'>
