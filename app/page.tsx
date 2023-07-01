@@ -312,6 +312,7 @@ export default function Home() {
         </section>
         {/**End of contact */}
         <footer className='bg-zinc-500'>
+          <div className='max-w-[90rem] mx-auto'>
           <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto pt-10 sm:pt-20 pb-5 px-[2%] lg:px-0'>
             <div className='grid grid-cols-1 md:grid-cols-3 place-items-stretch items-start gap-16 mb-8'>
               <div className='flex flex-col justify-start items-start gap-5'>
@@ -414,6 +415,7 @@ export default function Home() {
                 View Source
               </span>
             </div>
+          </div>
           </div>
         </footer>
         {/**End of footer */}
