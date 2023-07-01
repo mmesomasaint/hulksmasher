@@ -328,7 +328,17 @@ export default function Home() {
                 <BsInstagram className='text-amber-500 text-xl sm:text-2xl' />
               </div>
             </div>
-            <div className='grid grid-cols-3 col-span-2 gap-3 place-items-stretch'></div>
+            <div className='grid grid-cols-3 col-span-2 gap-3 place-items-stretch'>
+              <div className='flex flex-col gap-3 items-start justify-start'>
+                <h3 className='text-sm sm:text-base font-semibold text-black underline underline-offset-8 leading-none'>Header</h3>
+                <ul className='flex flex-col gap-1 items-start justify-start'>
+                  <li className='text-white text-sm sm:text-base'>Item 1</li>
+                  <li className='text-white text-sm sm:text-base'>Item 2</li>
+                  <li className='text-white text-sm sm:text-base'>Item 3</li>
+                  <li className='text-white text-sm sm:text-base'>Item 4</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </footer>
         {/**End of footer */}
