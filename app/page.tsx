@@ -396,13 +396,13 @@ export default function Home() {
             </div>
             <div className='flex flex-wrap md:flex-nowrap justify-start md:justify-center items-center gap-5 pt-5 border-t border-gray-400'>
               <span className='text-white text-sm sm:text-base font-medium leading-tight'>
-                &copy;Copyright 2023 Hulksmasher
+                &copy; 2023 Hulksmasher
               </span>
               <span className='text-white text-sm sm:text-base font-semibold'>
                 &middot;
               </span>
               <span className='text-white text-sm sm:text-base font-medium leading-tight'>
-                Designed By{' '}
+                Designed By&nbsp;
                 <span className='underline underline-offset-4'>
                   Mmesoma Saint
                 </span>
