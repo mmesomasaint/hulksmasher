@@ -305,7 +305,8 @@ export default function Home() {
           </div>
         </section>
         {/**End of contact */}
-        <footer></footer>
+        <footer className='bg-amber-500/30'>
+        </footer>
         {/**End of footer */}
       </div>
     </main>
