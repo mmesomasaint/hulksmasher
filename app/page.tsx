@@ -1,7 +1,7 @@
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsTelephone, BsWhatsapp, BsEnvelopeAtFill, BsFacebook } from 'react-icons/bs'
+import { BsTelephone, BsWhatsapp, BsEnvelopeFill, BsFacebook } from 'react-icons/bs'
 import ResponsiveNav from './components/responsive-nav'
 import Button from './components/button'
 import CraftCard from './components/craft-card'
@@ -317,7 +317,7 @@ export default function Home() {
                 <div className='flex justify-evenly items-center gap-1'>
                   <BsTelephone className='text-amber-500 text-xl sm:text-3xl' />
                   <BsWhatsapp className='text-amber-500 text-xl sm:text-3xl' />
-                  <BsEnvelopeAtFill className='text-amber-500 text-xl sm:text-3xl' />
+                  <BsEnvelopeFill className='text-amber-500 text-xl sm:text-3xl' />
                   <BsFacebook className='text-amber-500 text-xl sm:text-3xl' />
                 </div>
               </div>
