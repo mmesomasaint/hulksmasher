@@ -395,11 +395,24 @@ export default function Home() {
               </div>
             </div>
             <div className='flex justify-center items-center gap-5 pt-5 border-t border-gray-400'>
-              <span className='text-white text-sm sm:text-base font-medium leading-tight'>&copy;Copyright 2023 Hulksmasher</span>
-              <span className='text-white text-sm sm:text-base font-semibold'>&middot;</span>
-              <span className='text-white text-sm sm:text-base font-medium leading-tight'>Designed By <span className='underline underline-offset-4'>Mmesoma Saint</span></span>
-              <span className='text-white text-sm sm:text-base font-semibold'>&middot;</span>
-              <span className='text-white text-sm sm:text-base font-medium leading-tight underline underline-offset-4'>View Source</span>
+              <span className='text-white text-sm sm:text-base font-medium leading-tight'>
+                &copy;Copyright 2023 Hulksmasher
+              </span>
+              <span className='text-white text-sm sm:text-base font-semibold'>
+                &middot;
+              </span>
+              <span className='text-white text-sm sm:text-base font-medium leading-tight'>
+                Designed By{' '}
+                <span className='underline underline-offset-4'>
+                  Mmesoma Saint
+                </span>
+              </span>
+              <span className='text-white text-sm sm:text-base font-semibold'>
+                &middot;
+              </span>
+              <span className='text-white text-sm sm:text-base font-medium leading-tight underline underline-offset-4'>
+                View Source
+              </span>
             </div>
           </div>
         </footer>
