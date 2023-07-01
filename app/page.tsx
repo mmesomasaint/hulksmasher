@@ -312,7 +312,7 @@ export default function Home() {
         </section>
         {/**End of contact */}
         <footer className='bg-zinc-500'>
-          <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto pt-10 sm:pt-20 pb-8 px-[2%] lg:px-0'>
+          <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto pt-10 sm:pt-20 pb-5 px-[2%] lg:px-0'>
             <div className='grid grid-cols-1 md:grid-cols-3 place-items-stretch items-start gap-16'>
               <div className='flex flex-col justify-start items-start gap-5'>
                 <Image src='/1-shoe.png' width={80} height={60} alt='logo' />
@@ -393,6 +393,13 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
+            </div>
+            <div className='flex justify-center items-center gap-5 pt-5 border-t border-gray-400'>
+              <span className='text-white text-sm sm:text-base font-medium leading-tight'>&copy;Copyright 2023 Hulksmasher</span>
+              <span className='text-white text-sm sm:text-base font-semibold'>&middot;</span>
+              <span className='text-white text-sm sm:text-base font-medium leading-tight'>Designed By <span className='underline underline-offset-4'>Mmesoma Saint</span></span>
+              <span className='text-white text-sm sm:text-base font-semibold'>&middot;</span>
+              <span className='text-white text-sm sm:text-base font-medium leading-tight underline underline-offset-4'>View Source</span>
             </div>
           </div>
         </footer>
