@@ -312,8 +312,8 @@ export default function Home() {
         </section>
         {/**End of contact */}
         <footer className='bg-zinc-500'>
-          <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch items-start gap-5 pt-10 sm:pt-20 pb-8'>
-            <div className='p-1 flex flex-col justify-start items-start gap-5'>
+          <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch items-start gap-16 pt-10 sm:pt-20 pb-8'>
+            <div className='flex flex-col justify-start items-start gap-5'>
               <Image src='/1-shoe.png' width={80} height={60} alt='logo' />
               <span className='text-white text-sm sm:text-base font-medium leading-tight'>
                 We take pride in our work and the satisfaction of our clients.
@@ -328,14 +328,14 @@ export default function Home() {
                 <BsInstagram className='text-amber-500 text-xl sm:text-2xl' />
               </div>
             </div>
-            <div className='grid grid-cols-3 col-span-2 gap-3 place-items-stretch'>
-              <div className='flex flex-col gap-3 items-start justify-start'>
-                <h3 className='text-sm sm:text-base font-semibold text-black underline underline-offset-8 leading-none'>Header</h3>
-                <ul className='flex flex-col gap-1 items-start justify-start'>
-                  <li className='text-white text-sm sm:text-base'>Item 1</li>
-                  <li className='text-white text-sm sm:text-base'>Item 2</li>
-                  <li className='text-white text-sm sm:text-base'>Item 3</li>
-                  <li className='text-white text-sm sm:text-base'>Item 4</li>
+            <div className='p-3 grid grid-cols-3 col-span-2 gap-3 place-items-stretch'>
+              <div className='flex flex-col gap-5 items-start justify-start'>
+                <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>QUICK LINKS</h3>
+                <ul className='flex flex-col gap-3 items-start justify-start'>
+                  <li className='text-gray-200 text-sm sm:text-base'>Home</li>
+                  <li className='text-gray-200 text-sm sm:text-base'>Portfolio</li>
+                  <li className='text-gray-200 text-sm sm:text-base'>Submit Pattern</li>
+                  <li className='text-gray-200 text-sm sm:text-base'>Contact Us</li>
                 </ul>
               </div>
             </div>
