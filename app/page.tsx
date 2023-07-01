@@ -306,6 +306,7 @@ export default function Home() {
         </section>
         {/**End of contact */}
         <footer></footer>
+        {/**End of footer */}
       </div>
     </main>
   )
