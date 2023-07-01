@@ -328,7 +328,7 @@ export default function Home() {
                 <BsInstagram className='text-amber-500 text-xl sm:text-2xl' />
               </div>
             </div>
-            <div className='p-3 grid grid-cols-3 col-span-2 gap-3 place-items-stretch'>
+            <div className='p-3 grid grid-cols-3 col-span-2 gap-10 place-items-stretch'>
               <div className='flex flex-col gap-5 items-start justify-start'>
                 <h3 className='text-white text-sm sm:text-base font-semibold underline underline-offset-8 leading-none'>
                   QUICK LINKS
