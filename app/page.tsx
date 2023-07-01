@@ -394,7 +394,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='flex justify-center items-center gap-5 pt-5 border-t border-gray-400'>
+            <div className='flex flex-wrap md:flex-nowrap justify-start md:justify-center items-center gap-5 pt-5 border-t border-gray-400'>
               <span className='text-white text-sm sm:text-base font-medium leading-tight'>
                 &copy;Copyright 2023 Hulksmasher
               </span>
