@@ -305,7 +305,7 @@ export default function Home() {
           </div>
         </section>
         {/**End of contact */}
-        <footer className='bg-red-500/50'>
+        <footer className='bg-zinc-500'>
             <div className='w-full lg:w-[90%] xl:w-[80%] mx-auto grid grid-cols-3 place-items-stretch items-start gap-5 pt-10 sm:pt-20 pb-8'>
               <div className='p-1 flex flex-col justify-start items-start gap-3'>
                 <Image src='/1-shoe.png' width={50} height={30} alt='logo' />
@@ -322,7 +322,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='grid grid-cols-3 col-span-2 gap-3 place-items-stretch'>
-                
+
               </div>
             </div>
         </footer>
