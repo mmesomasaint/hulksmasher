@@ -30,7 +30,7 @@ export default function Home() {
               </div>
               <div className='col-span-3 flex justify-between items-center gap-7'>
                 <div className='w-fit flex-row bg-transparent hidden lg:flex justify-evenly items-center gap-7 p-0'>
-                  <span className='font-normal text-lg leading-none text-primary'>
+                  <span className='font-normal text-lg leading-none text-red-500'>
                     <Link href='/'>Home</Link>
                   </span>
                   <span className='font-normal text-lg leading-none text-black hover:text-gray-600'>
