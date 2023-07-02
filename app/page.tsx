@@ -142,7 +142,7 @@ export default function Home() {
                     <div className='py-3 flex justify-start items-start gap-3'>
                       <div className='w-12 h-12 flex shrink-0 justify-center items-center rounded-2xl border border-zinc-600'></div>
                       <div className='flex flex-col justify-start items-start gap-2'>
-                        <span className='text-sm sm:text-base font-semibold text-amber-600 leading-none'>
+                        <span className='text-sm sm:text-base font-semibold text-red-600 leading-none'>
                           Our Mission
                         </span>
                         <span className='text-black text-xs sm:text-sm font-normal leading-tight'>
@@ -154,7 +154,7 @@ export default function Home() {
                     <div className='py-3 flex justify-start items-start gap-3'>
                       <div className='w-12 h-12 flex shrink-0 justify-center items-center rounded-2xl border border-zinc-600'></div>
                       <div className='flex flex-col justify-start items-start gap-2'>
-                        <span className='text-sm sm:text-base font-semibold text-amber-600 leading-none'>
+                        <span className='text-sm sm:text-base font-semibold text-red-600 leading-none'>
                           Our Vision
                         </span>
                         <span className='text-black text-xs sm:text-sm font-normal leading-tight'>
