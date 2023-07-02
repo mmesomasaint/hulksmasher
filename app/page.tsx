@@ -376,6 +376,9 @@ export default function Home() {
                       <li className='text-gray-200 text-sm sm:text-base'>
                         Graphics
                       </li>
+                      <li className='text-gray-200 text-sm sm:text-base'>
+                        Hiring!
+                      </li>
                     </ul>
                   </div>
                   <div className='flex flex-col gap-5 items-start justify-start'>
