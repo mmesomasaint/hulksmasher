@@ -89,7 +89,7 @@ export default function Home() {
                       Experience the unparalleled comfort, style and
                       self-expression crafted just for you.
                     </span>
-                    <span>Let's get you there with just 3 steps.</span>
+                    <span>Let's get you there with just 4 steps.</span>
                   </div>
                   <div className='flex flex-col xs:flex-row justify-evenly items-center gap-7'>
                     <Button secondary>
