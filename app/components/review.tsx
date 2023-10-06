@@ -29,14 +29,14 @@ function Review({ reviews }: ReviewNodeType) {
     while (list.length < 3) list.push(...list)
 
     return list
-  }, [])
+  }, [reviews])
 
   const movePairLeft: () => void = useCallback(
     () =>
       setActivePair((prev) =>
         prev === 0 ? pairedReviews.length - 1 : prev - 1
       ),
-    []
+    [pairedReviews.length]
   )
 
   const movePairRight: () => void = useCallback(
@@ -44,7 +44,7 @@ function Review({ reviews }: ReviewNodeType) {
       setActivePair((prev) =>
         prev === pairedReviews.length - 1 ? 0 : prev + 1
       ),
-    []
+    [pairedReviews.length]
   )
 
   return (
